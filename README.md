@@ -14,4 +14,7 @@
   
   Candidate Page
   As a user, I want to be able to see the top "x" issues that this candidate talks about.
+  
+  Comparison Page
+  As a user, I want to see how much certain issues matter to specifc candidates through the use of interactive images.
 ```
