@@ -38,10 +38,18 @@ client = Twitter::REST::Client.new do |config|
 	config.consumer_secret	= Rails.application.secrets.twitter_consumer_secret
 end
 
-raw_text = {}
+tweets = {}
 
-TWITTER_HANDLES.each do |candidate, handle|
-	raw_text[candidate] = client.user_timeline(handle, count: 200, include_rts: false).map { |tweet| tweet.text }
+def client.get_all_tweets(user)
+  collect_with_max_id do |max_id|
+    options = {count: 200, include_rts: false}
+    options[:max_id] = max_id unless max_id.nil?
+		user_timeline(user, options)
+  end
 end
 
-raw_text.each { |candidate, tweets| p tweets.count }
+TWITTER_HANDLES.each do |candidate, handle|
+	tweets[candidate] = client.get_all_tweets(handle)
+end
+
+tweets.each { |candidate, tweets| p tweets.count }
