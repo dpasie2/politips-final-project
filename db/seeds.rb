@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 require "twitter"
+require "csv"
 
 TWITTER_HANDLES = {
 	sanders: "@SenSanders",
@@ -32,16 +33,35 @@ TWITTER_HANDLES = {
 	walker: "@ScottWalker"
 }
 
-
 client = Twitter::REST::Client.new do |config|
 	config.consumer_key			= Rails.application.secrets.twitter_consumer_key
 	config.consumer_secret	= Rails.application.secrets.twitter_consumer_secret
 end
 
-raw_text = {}
+tweets = {}
 
-TWITTER_HANDLES.each do |candidate, handle|
-	raw_text[candidate] = client.user_timeline(handle, count: 200, include_rts: false).map { |tweet| tweet.text }
+def client.get_all_tweets(user)
+  collect_with_max_id do |max_id|
+    options = {count: 200, include_rts: false}
+    options[:max_id] = max_id unless max_id.nil?
+		user_timeline(user, options)
+  end
 end
 
-raw_text.each { |candidate, tweets| p tweets.count }
+TWITTER_HANDLES.each do |candidate, handle|
+	begin
+		tweets[candidate] = client.get_all_tweets(handle)
+	rescue Twitter::Error::TooManyRequests => error
+		sleep error.rate_limit.reset_in + 1
+		redo
+	end
+end
+
+tweets.each do |candidate, candidate_tweets|
+	CSV.open("db/raw_text/tweets/#{candidate}_tweets.csv", "w") do |csv|
+		csv << ["created_at", "text"]
+		candidate_tweets.each do |tweet|
+			csv << [tweet.created_at, tweet.text]
+		end
+	end
+end
