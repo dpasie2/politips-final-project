@@ -58,10 +58,9 @@ TWITTER_HANDLES.each do |candidate, handle|
 end
 
 tweets.each do |candidate, candidate_tweets|
-	CSV.open("db/raw_text/tweets/#{candidate}_tweets.csv", "w") do |csv|
-		csv << ["created_at", "text"]
+	File.open("db/raw_text/tweets/#{candidate}_tweets.txt", "w") do |file|
 		candidate_tweets.each do |tweet|
-			csv << [tweet.created_at, tweet.text]
+			file << "#{tweet.text}\n"
 		end
 	end
 end
