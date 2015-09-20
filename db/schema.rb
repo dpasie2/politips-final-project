@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20150920174933) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "party"
-    t.string   "bio"
+    t.text     "bio"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 20150920174933) do
   end
 
   create_table "scorings", force: :cascade do |t|
-    t.string   "score"
+    t.integer  "score"
     t.integer  "candidate_id"
     t.integer  "category_id"
     t.datetime "created_at",   null: false

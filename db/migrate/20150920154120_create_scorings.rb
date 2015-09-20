@@ -1,7 +1,7 @@
 class CreateScorings < ActiveRecord::Migration
   def change
     create_table :scorings do |t|
-      t.string :score
+      t.integer :score
       t.integer :candidate_id
       t.integer :category_id
 
