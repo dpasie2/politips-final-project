@@ -1,6 +1,11 @@
 <div class="container">
 <h1> Candidate Index Page </h1>
   <% @candidates.each do |candidate|%>
+    <% candidate.format_candidate %>
     <%= candidate.name %>
   <% end %>
+</div>
+
+<div class="d3">
+
 </div>
