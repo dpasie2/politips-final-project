@@ -1,7 +1,7 @@
 class CreateKeywords < ActiveRecord::Migration
   def change
     create_table :keywords do |t|
-      t.string :keyword
+      t.string :word
       t.integer :category_id
       t.timestamps null: false
     end
