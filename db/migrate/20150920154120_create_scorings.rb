@@ -4,7 +4,6 @@ class CreateScorings < ActiveRecord::Migration
       t.integer :score
       t.integer :candidate_id
       t.integer :category_id
-
       t.timestamps null: false
     end
   end
