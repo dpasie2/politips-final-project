@@ -74,7 +74,7 @@ taxes.keywords << Keyword.create!(keyword: "wealth")
 taxes.keywords << Keyword.create!(keyword: "inheritance")
 taxes.keywords << Keyword.create!(keyword: "cuts")
 taxes.keywords << Keyword.create!(keyword: "interest")
-taxes.keywords << Keyword.create!(keyword: "IRS")
+taxes.keywords << Keyword.create!(keyword: "irs")
 taxes.keywords << Keyword.create!(keyword: "reform")
 
 health.keywords << Keyword.create!(keyword: "obamacare")
