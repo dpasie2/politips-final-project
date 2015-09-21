@@ -171,3 +171,6 @@ marriage.keywords << Keyword.create!(word: "transgender")
 marriage.keywords << Keyword.create!(word: "lesbian")
 marriage.keywords << Keyword.create!(word: "legalization")
 marriage.keywords << Keyword.create!(word: "tradition")
+
+# trying to run in shell
+# system "echo 'python #{Rails.root}/db/scripts/keyword_analyzer.py'"
