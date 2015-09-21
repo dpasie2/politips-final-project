@@ -1,3 +1,52 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.landing-page-image{
+  height: 200px;
+  width: 100%;
+}
+
+.image-banner{
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #21409A;
+}
+
+.phrase{
+  margin-top: 15px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  color: #21409A;
+}
+
+.button-container{
+  width: 100%;
+  margin-top: 25px;
+}
+
+.btn-lg{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E93829;
+  background-color: #21409A;
+}
+
+.btn-lg:hover{
+  background-color: #E93829;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: white;
+
+}
