@@ -13,3 +13,5 @@
 /tmp
 /tmp/*
 *.pyc
+/app/assets/.DS_Store
+/app/assets/javascripts/.DS_Store

@@ -1,24 +1,7 @@
-var width = 800, height = 600;
+var DEFAULT_CANDIDATE_NAME = "sanders";
 
-// sets width and height of the canvas
-var canvas = d3.select("body").append("svg")
-  .attr("width", width)
-  .attr("height", height)
-  .append("g")
-    .attr("transform", "translate(50, 50)");
-
-// sets the layout to pack
-var pack = d3.layout.pack()
-  .size([width, height - 50])
-  .padding(10);
-
-// passes json as data
-
-//important, need to swap data in and out on event clicks of candiates tabs
-
-d3.json("one_candidate_json_object", function (data) {
-
-  var nodes = pack.nodes(data);
+function displayChart(candidateName) {
+  var nodes = pack.nodes(data[candidateName.toLowerCase()]);
 
   // binds data to the canvas
   var node = canvas.selectAll(".node")
@@ -43,6 +26,34 @@ d3.json("one_candidate_json_object", function (data) {
     .text(function (d) {
       return d.children ? "" : d.issue;
     });
+}
 
 
+$(document).ready(function() {
+  var width = 800, height = 600;
+
+  // sets width and height of the canvas
+  var canvas = d3.select(".d3").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .append("g")
+      .attr("transform", "translate(50, 50)");
+
+  // sets the layout to pack
+  var pack = d3.layout.pack()
+    .size([width, height - 50])
+    .padding(10);
+
+  // passes json as data
+
+  //important, need to swap data in and out on event clicks of candidates tabs
+  // $(div????).on("click" function (event) {
+  //   var candidate = this.last_name
+
+  d3.json("fakedata.json", function (data) {
+    // console.log(data);
+    displayChart(DEFAULT_CANDIDATE_NAME);
+  });
+
+  $()
 });

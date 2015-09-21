@@ -1,0 +1,22 @@
+{
+  "trump":
+    { "name": "Trump",
+      "party": "republican",
+      "children": [
+        { "issue":"immigration", "value": 25 },
+        { "issue":"gay marriage", "value": 30 },
+        { "issue":"education", "value": 50 },
+        { "issue":"abortion", "value": 40 },
+        { "issue":"financial debt", "value": 80 }]
+    },
+  "sanders":
+    { "name": "Trump",
+      "party": "republican",
+      "children": [
+        { "issue":"immigration", "value": 40 },
+        { "issue":"gay marriage", "value": 20 },
+        { "issue":"education", "value": 15 },
+        { "issue":"abortion", "value": 70 },
+        { "issue":"financial debt", "value": 45 }]
+    }
+}
