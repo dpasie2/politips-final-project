@@ -1,19 +1,54 @@
 .navbar {
-    width: 15%;
+  width: 15%;
+  font-family: 'Open Sans', sans-serif;
 }
- .sidebar-nav .navbar .navbar-collapse {
+
+.sidebar-nav .navbar .navbar-collapse {
     padding: 0;
     max-height: none;
-  }
-  .sidebar-nav .navbar ul {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li {
-    float: none;
-    display: block;
-  }
-  .sidebar-nav .navbar li a {
-    padding-top: 12px;
-    padding-bottom: 12px;
-  }
+}
+
+.sidebar-nav .navbar ul {
+  float: none;
+  display: block;
+}
+.sidebar-nav .navbar li {
+  float: none;
+  display: block;
+}
+.sidebar-nav .navbar li a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.candidates-page-image{
+  width: 100%;
+  height: 100px;
+ }
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Open Sans', sans-serif;
+  color: #21409A;
+}
+
+.navbar-default .navbar-brand {
+  color: #21409A;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.navbar-default .navbar-brand:hover {
+  color: #E93829;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #E93829;
+}
+
+.republican{
+  color: ;
+}
+
+.democrat{
+
+}
+

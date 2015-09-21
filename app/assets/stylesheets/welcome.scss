@@ -9,7 +9,7 @@
   background-color: white;
 }
 
-img{
+.landing-page-image{
   height: 200px;
   width: 100%;
 }
@@ -38,6 +38,15 @@ img{
   background-color: #21409A;
 }
 
+.btn-lg:hover{
+  background-color: #E93829;
+}
+
 a{
   color: white;
+}
+
+a:hover{
+  color: white;
+
 }

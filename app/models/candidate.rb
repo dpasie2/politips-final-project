@@ -6,4 +6,7 @@ class Candidate < ActiveRecord::Base
     candidate = { name: "#{self.name}", party: "#{self.party}", children:[{}] }
   end
 
+  def self.get_party_members(party)
+   Candidate.where(party: party)
+  end
 end
