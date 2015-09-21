@@ -12,9 +12,11 @@ var pack = d3.layout.pack()
   .size([width, height - 50])
   .padding(10);
 
-// passes json as data/
-//important, need to swap data in and out on event clicks of tabs
-d3.json("testdata", function (data) {
+// passes json as data
+
+//important, need to swap data in and out on event clicks of candiates tabs
+
+d3.json("one_candidate_json_object", function (data) {
 
   var nodes = pack.nodes(data);
 
