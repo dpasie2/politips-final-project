@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Use ruby twitter gem for
 gem 'twitter'
 
+gem 'rails_12factor'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -41,6 +42,7 @@ group :development, :test do
   gem 'byebug'
 
   gem 'dotenv-rails'
+
 end
 
 group :development do
@@ -49,4 +51,5 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
 end
