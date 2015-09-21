@@ -28,27 +28,26 @@
 
 .navbar-default .navbar-nav>li>a {
   font-family: 'Open Sans', sans-serif;
-  color: #21409A;
-}
-
-.navbar-default .navbar-brand {
-  color: #21409A;
-  font-family: 'Open Sans', sans-serif;
-
-}
-.navbar-default .navbar-brand:hover {
-  color: #E93829;
+  color: #2A2525;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
+  color: grey;
+}
+
+/*.one_republican:hover{
   color: #E93829;
 }
 
+.one_democrat:hover{
+  color: #21409A;
+}*/
+
 .republican{
-  color: ;
+  color: #E93829;
 }
 
 .democrat{
-
+  color: #21409A;
 }
 

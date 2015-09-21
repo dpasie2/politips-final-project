@@ -5,19 +5,17 @@
   <div class="navbar navbar-default" role="navigation">
         <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="republican"> Republicans </li>
+            <h5 class="republican"> Republicans </h5>
             <% @candidates.get_party_members("Republican").each do |candidate| %>
-              <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
+              <li class"one-republican"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
             <% end %>
-            <li class="democrat"> Democrats </li>
+            <h5 class="democrat"> Democrats </h5>
             <% @candidates.get_party_members("Democrat").each do |candidate| %>
-              <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
+              <li class="one-democrat"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
             <% end %>
           </ul>
         </div>
   </div>
-
-
     <div class="d3">
 
     </div>
