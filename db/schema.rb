@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 20150921151429) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "party"
-    t.text     "bio"
+    t.string   "bio"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
     t.string   "twitter_handle"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150921151429) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
+    t.string   "keywords"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -40,7 +41,7 @@ ActiveRecord::Schema.define(version: 20150921151429) do
   end
 
   create_table "scorings", force: :cascade do |t|
-    t.integer  "score"
+    t.string   "score"
     t.integer  "candidate_id"
     t.integer  "category_id"
     t.datetime "created_at",   null: false
