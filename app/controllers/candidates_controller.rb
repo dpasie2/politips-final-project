@@ -17,4 +17,5 @@ class CandidatesController < ApplicationController
   def find_all_candidates
     @candidates = Candidate.all
   end
+  ##scroll in the candidats nav bar
 end

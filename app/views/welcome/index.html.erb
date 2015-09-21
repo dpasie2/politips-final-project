@@ -1,5 +1,16 @@
 <div class= "container">
-  <h1> Welcome to Politips </h1>
-  <p> Politics Made Simple </p>
-  <%= link_to "Check Out Candidates", candidates_path %>
+
+  <div class="image-banner">
+    <%= image_tag( "banner-copy2.svg", class: "landing-page-image") %>
+  </div>
+
+  <div class="phrase">
+  <h4> Politics Made Simple </h4>
+  </div>
+
+  <div class="button-container">
+  <button type="button" class="btn-lg"><%= link_to "Check Out Candidates", candidates_path %>
+  </div>
+
 </div>
+

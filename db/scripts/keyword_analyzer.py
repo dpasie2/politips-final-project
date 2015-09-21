@@ -51,12 +51,12 @@ class CountAllCategories:
 def extract_candidate_name(dir_string):
     # pattern is everything between the "speeches/" directory and underscore
     #  (should be just name, capitalized)
-    candidate_name_search_pattern = re.compile("(?<=speeches/).+?(?=_)")
+    candidate_name_search_pattern = re.compile("(?<=/raw-text/master-files/).+?(?=_)")
     result = candidate_name_search_pattern.search(dir_string)
     return result.group(0).title()
 
 def gather_files_and_run_parser():
-    all_files_to_parse = glob.glob("../speeches/*.txt")
+    all_files_to_parse = glob.glob("../raw-text/master-files/*.txt")
     for individual_text in all_files_to_parse:
         candidate = extract_candidate_name(individual_text)
         if Candidate.where('last_name', candidate).first():
