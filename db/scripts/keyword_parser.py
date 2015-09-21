@@ -4,6 +4,7 @@ from nltk.corpus import stopwords
 import db_politips
 from db_politips import *
 import glob
+import re
 
 
 # TD: stem and lemmatize our search terms before bringing them in.
@@ -43,17 +44,23 @@ class CountAllCategories:
         for category in categories:
             single_category = CategoryCount(self.doc, category.name)
             score_val = single_category.count_keyword_frequencies()
-            Scoring.create(score=score_val, category_id=category.id, candidate_id=self.candidate.id)
+            print("{last_name}: {category_name}: {score}".format(last_name=self.candidate.last_name, category_name=category.name, score=score_val))
+            entry = Scoring.create(score=score_val, category_id=category.id, candidate_id=self.candidate.id)
+            print(entry)
+
+def extract_candidate_name(dir_string):
+    # pattern is everything between the "speeches/" directory and underscore
+    #  (should be just name, capitalized)
+    candidate_name_search_pattern = re.compile("(?<=speeches/).+?(?=_)")
+    result = candidate_name_search_pattern.search(dir_string)
+    return result.group(0).title()
 
 def gather_files_and_run_parser():
     all_files_to_parse = glob.glob("../speeches/*.txt")
     for individual_text in all_files_to_parse:
-        print(individual_text)
-        # candidate =
-        # instance = CountAllCategories(individual_text, candidate)
-        # instance.run()
+        candidate = extract_candidate_name(individual_text)
+        if Candidate.where('last_name', candidate).first():
+            instance = CountAllCategories(individual_text, candidate)
+            instance.run()
 
 gather_files_and_run_parser()
-
-# test = CountAllCategories("test.txt", "Trump")
-# test.run()
