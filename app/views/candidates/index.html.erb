@@ -1,62 +1,24 @@
-<<<<<<< HEAD
-<div class="container">
-  <h1> Candidate Index Page </h1>
+<div class="candidates-container">
+  <div class="page-header">
+    <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
+  </div>
   <div class="navbar navbar-default" role="navigation">
-    <a class="navbar-brand" href="/candidate/show">Candidates</a>
     <div class="navbar-collapse collapse sidebar-navbar-collapse">
       <ul class="nav navbar-nav">
-
-        <li class="active"><a href="#">Candidate 1</a></li>
-        <li><a href="#">candidate 2</a></li>
-        <li><a href="#">candidate 3</a></li>
-        <li><a href="#">candidate 4</a></li>
-        <li><a href="#">candidate 5</a></li>
-        <li><a href="#">candidate 6</a></li>
-        <li><a href="#">candidate 7</a></li>
-        <li><a href="#">candidate 8</a></li>
-        <li><a href="#">candidate 9</a></li>
-        <li><a href="#">candidate 10</a></li>
-        <li><a href="#">candidate 11</a></li>
-        <li><a href="#">candidate 12</a></li>
-        <li><a href="#">candidate 13</a></li>
-        <li><a href="#">candidate 14</a></li>
-        <li><a href="#">candidate 15</a></li>
-        <li><a href="#">candidate 16</a></li>
-        <li><a href="#">candidate 17</a></li>
-        <li><a href="#">candidate 18</a></li>
-        <li><a href="#">candidate 19</a></li>
-        <li><a href="#">candidate 20</a></li>
-        <li><a href="#">candidate 21</a></li>
+        <li class="republican"> Republicans </li>
+        <% @candidates.get_party_members("Republican").each do |candidate| %>
+          <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
+        <% end %>
+        <li class="democrat"> Democrats </li>
+        <% @candidates.get_party_members("Democrat").each do |candidate| %>
+          <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
+        <% end %>
       </ul>
     </div>
   </div>
 
+
   <div class="d3">
 
   </div>
-=======
-<div class="candidates-container">
-<div class="page-header">
-  <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
-</div>
-  <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-collapse collapse sidebar-navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="republican"> Republicans </li>
-            <% @candidates.get_party_members("Republican").each do |candidate| %>
-              <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
-            <% end %>
-            <li class="democrat"> Democrats </li>
-            <% @candidates.get_party_members("Democrat").each do |candidate| %>
-              <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
-            <% end %>
-          </ul>
-        </div>
-  </div>
-
-
-    <div class="d3">
-
-    </div>
->>>>>>> master
 </div>
