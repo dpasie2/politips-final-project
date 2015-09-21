@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+#d3 gem
+gem 'd3-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use postgresql as the database for Active Record
