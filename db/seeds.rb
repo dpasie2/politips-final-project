@@ -167,54 +167,54 @@ marriage.keywords << Keyword.create!(word: "tradition")
 # 		end
 # 	end
 # end
-
-def parse_transcript(file_path)
-	transcript = File.read(file_path)
-
-	quotes = transcript.split(/(^[A-Z]+:)/)
-	quotes.delete_at(0)
-
-	names = quotes.select.with_index { |quote, index| index.even? }
-	lines = quotes.select.with_index { |quote, index| index.odd? }
-	names.map! { |name| name.downcase.delete(":").to_sym }
-
-	quotes = names.zip(lines)
-
-	quotes.each.with_index do |quote, index|
-		quotes[(index + 1)..-1].each do |quote_to_compare|
-			if quote[0] == quote_to_compare[0]
-				quote[1] << quote_to_compare[1]
-				quotes.delete(quote_to_compare)
-			end
-		end
-	end
-
-	quotes = Hash[quotes]
-	quotes.delete_if { |candidate, lines| CANDIDATES.has_key?(candidate) == false }
-end
-
-def compile_text(directory_path)
-	Dir.foreach(directory_path) do |filename|
-		next if filename == '.' or filename == '..'
-		text = File.read("#{directory_path}/#{filename}")
-		candidate = filename.slice(/\A[a-z]+/)
-		write_to_master(candidate, text)
-	end
-end
-
-def write_to_master(candidate, text)
-	File.open("db/raw-text/master-files/#{candidate}_master.txt", "a") do |file|
-		file << text
-	end
-end
-
-cnn_republican_debate = parse_transcript("db/raw-text/debates/cnn_republican_debate.txt")
-fox_republican_debate = parse_transcript("db/raw-text/debates/fox_republican_debate.txt")
-debates = cnn_republican_debate.merge(fox_republican_debate) { |key, cnn_lines, fox_lines| cnn_lines + fox_lines }
-
-debates.each do |candidate, text|
-	write_to_master(candidate, text)
-end
-
-compile_text("db/raw-text/speeches")
-compile_text("db/raw-text/tweets")
+#
+# def parse_transcript(file_path)
+# 	transcript = File.read(file_path)
+#
+# 	quotes = transcript.split(/(^[A-Z]+:)/)
+# 	quotes.delete_at(0)
+#
+# 	names = quotes.select.with_index { |quote, index| index.even? }
+# 	lines = quotes.select.with_index { |quote, index| index.odd? }
+# 	names.map! { |name| name.downcase.delete(":").to_sym }
+#
+# 	quotes = names.zip(lines)
+#
+# 	quotes.each.with_index do |quote, index|
+# 		quotes[(index + 1)..-1].each do |quote_to_compare|
+# 			if quote[0] == quote_to_compare[0]
+# 				quote[1] << quote_to_compare[1]
+# 				quotes.delete(quote_to_compare)
+# 			end
+# 		end
+# 	end
+#
+# 	quotes = Hash[quotes]
+# 	quotes.delete_if { |candidate, lines| CANDIDATES.has_key?(candidate) == false }
+# end
+#
+# def compile_text(directory_path)
+# 	Dir.foreach(directory_path) do |filename|
+# 		next if filename == '.' or filename == '..'
+# 		text = File.read("#{directory_path}/#{filename}")
+# 		candidate = filename.slice(/\A[a-z]+/)
+# 		write_to_master(candidate, text)
+# 	end
+# end
+#
+# def write_to_master(candidate, text)
+# 	File.open("db/raw-text/master-files/#{candidate}_master.txt", "a") do |file|
+# 		file << text
+# 	end
+# end
+#
+# cnn_republican_debate = parse_transcript("db/raw-text/debates/cnn_republican_debate.txt")
+# fox_republican_debate = parse_transcript("db/raw-text/debates/fox_republican_debate.txt")
+# debates = cnn_republican_debate.merge(fox_republican_debate) { |key, cnn_lines, fox_lines| cnn_lines + fox_lines }
+#
+# debates.each do |candidate, text|
+# 	write_to_master(candidate, text)
+# end
+#
+# compile_text("db/raw-text/speeches")
+# compile_text("db/raw-text/tweets")
