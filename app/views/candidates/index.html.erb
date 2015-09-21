@@ -7,11 +7,11 @@
       <ul class="nav navbar-nav">
         <li class="republican"> Republicans </li>
         <% @candidates.get_party_members("Republican").each do |candidate| %>
-          <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
+          <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path, id: candidate.last_name %></li>
         <% end %>
         <li class="democrat"> Democrats </li>
         <% @candidates.get_party_members("Democrat").each do |candidate| %>
-          <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
+          <li><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path, id: candidate.last_name %></li>
         <% end %>
       </ul>
     </div>
