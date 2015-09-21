@@ -1,6 +1,6 @@
 import codecs
 import nltk
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords
 import db_politips
 from db_politips import *
 import glob
