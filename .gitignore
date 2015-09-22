@@ -14,3 +14,6 @@
 /tmp/*
 *.pyc
 /db/raw-text/*
+/app/assets/.DS_Store
+/app/assets/javascripts/.DS_Store
+
