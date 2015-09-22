@@ -13,3 +13,4 @@
 /tmp
 /tmp/*
 *.pyc
+/db/raw-text/*
