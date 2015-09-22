@@ -52,10 +52,17 @@ $(document).ready(function() {
   // $(div????).on("click" function (event) {
   //   var candidate = this.last_name
 
+  var candidateData;
+
   d3.json("fakedata.json", function (data) {
-    // console.log(data);
-    displayChart(data);
+    candidateData = data;
+    displayChart(candidateData);
+
+    $(".link a").on("click", function (event) {
+      event.preventDefault();
+      displayChart(data, this.id)
+    });
   });
 
-  $()
+
 });
