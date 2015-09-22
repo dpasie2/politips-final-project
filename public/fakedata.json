@@ -1,7 +1,6 @@
 {
   "trump":
-    { "name": "Trump",
-      "party": "republican",
+    {
       "children": [
         { "issue":"immigration", "value": 5 },
         { "issue":"gay marriage", "value": 5 },
@@ -13,8 +12,7 @@
         { "issue":"financial debt", "value": 5 }]
     },
   "sanders":
-    { "name": "Sanders",
-      "party": "republican",
+    {
       "children": [
         { "issue":"immigration", "value": 15 },
         { "issue":"gay marriage", "value": 80 },
