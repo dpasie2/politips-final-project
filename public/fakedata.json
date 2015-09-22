@@ -10,13 +10,13 @@
         { "issue":"financial debt", "value": 5 }]
     },
   "sanders":
-    { "name": "Trump",
+    { "name": "Sanders",
       "party": "republican",
       "children": [
-        { "issue":"immigration", "value": 40 },
-        { "issue":"gay marriage", "value": 20 },
-        { "issue":"education", "value": 15 },
+        { "issue":"immigration", "value": 5 },
+        { "issue":"gay marriage", "value": 5 },
+        { "issue":"education", "value": 5 },
         { "issue":"abortion", "value": 70 },
-        { "issue":"financial debt", "value": 45 }]
+        { "issue":"financial debt", "value": 5 }]
     }
 }

@@ -1,20 +1,19 @@
 var DEFAULT_CANDIDATE_NAME = "sanders";
-var pack, canvas;
+var pack, canvas, nodes, node;
 
 function displayChart(data, candidateName) {
-  candidateName = candidateName || DEFAULT_CANDIDATE_NAME;
-  console.log(candidateName);
-  var nodes = pack.nodes(data[candidateName.toLowerCase()]);
+  candidateName = candidateName || DEFAULT_CANDIDATE_NAME
+  nodes = pack.nodes(data[candidateName.toLowerCase()]);
 
   // binds data to the canvas
-  var node = canvas.selectAll(".node")
-      .data(nodes)
-      .enter()
-      .append("g")
-      .attr("class", "node")
-      .attr("transform", function (d) {
-        return "translate(" + d.x + "," + d.y + ")";
-      });
+  node = canvas.selectAll(".node")
+         .data(nodes)
+         .enter()
+         .append("g")
+         .attr("class", "node")
+         .attr("transform", function (d) {
+           return "translate(" + d.x + "," + d.y + ")";
+         });
 
   node.append("circle")
       .attr("fill", function(d) { return d.children ? "#fff" : "steelblue"; })
@@ -31,7 +30,6 @@ function displayChart(data, candidateName) {
       });
 }
 
-
 $(document).ready(function() {
   var width = 800, height = 600;
 
@@ -47,12 +45,6 @@ $(document).ready(function() {
          .size([width, height - 50])
          .padding(10);
 
-  // passes json as data
-
-  //important, need to swap data in and out on event clicks of candidates tabs
-  // $(div????).on("click" function (event) {
-  //   var candidate = this.last_name
-
   var candidateData;
 
   d3.json("fakedata.json", function (data) {
@@ -61,7 +53,8 @@ $(document).ready(function() {
 
     $(".link a").on("click", function (event) {
       event.preventDefault();
-      displayChart(data, this.id)
+      $(".node").remove();
+      displayChart(candidateData, this.id)
     });
   });
 });
