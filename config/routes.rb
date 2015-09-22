@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   get 'candidates', to: 'candidates#index'
   get 'candidate', to: 'candidates#show'
 
+  get 'polls', to: 'polls#index'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
