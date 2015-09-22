@@ -18,9 +18,9 @@ finished_republican = republican_body[0]["questions"][0]["subpopulations"][0]["r
 
 # Write to file
 
-open("../../public/2016-president-gop-primary.json", "w") do |f|
-    f << finished_republican
-end
+# open("../../public/2016-president-gop-primary.json", "w") do |f|
+#     f << finished_republican
+# end
 
 ## democrat request
 democrat_uri = URI("http://elections.huffingtonpost.com/pollster/api/polls")
@@ -36,7 +36,7 @@ finished_democrat = democrat_body[1]["questions"][1]["subpopulations"][0]["respo
 
 # Write to file
 
-open("../../public/2016-president-dem-primary.json", "w") do |f|
-    f << finished_democrat
-end
+# open("../../public/2016-president-dem-primary.json", "w") do |f|
+#     f << finished_democrat
+# end
 
