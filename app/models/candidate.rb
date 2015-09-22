@@ -16,7 +16,7 @@ class Candidate < ActiveRecord::Base
     self.scorings.map do |scoring|
       value = (scoring.score.to_f / sum.to_f * 100).round
       value = 1 if value == 0
-      { "issue" => scoring.category.name.downcase, "value" => (scoring.score.to_f / sum.to_f * 100).round }
+      { "issue" => scoring.category.name.downcase, "value" => value }
     end
   end
 
