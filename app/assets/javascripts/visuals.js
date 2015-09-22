@@ -1,3 +1,14 @@
+var COLORS = {
+  "immigration": "#C25B56",
+  "gay marriage": "#74828F",
+  "education": "#96C0CE",
+  "abortion": "#BEB9B5",
+  "financial debt": "#525564",
+  "terrorism": "#5696BC",
+  "race relations":"#D13F31",
+  "foreign policy":"#DBD1C8"
+};
+
 var DEFAULT_CANDIDATE_NAME = "sanders";
 var pack, canvas, nodes, node;
 
@@ -7,27 +18,31 @@ function displayChart(data, candidateName) {
 
   // binds data to the canvas
   node = canvas.selectAll(".node")
-         .data(nodes)
-         .enter()
-         .append("g")
-         .attr("class", "node")
-         .attr("transform", function (d) {
-           return "translate(" + d.x + "," + d.y + ")";
-         });
+   .data(nodes)
+   .enter()
+   .append("g")
+   .attr("class", "node")
+   .attr("transform", function (d) {
+     return "translate(" + d.x + "," + d.y + ")";
+   });
 
   node.append("circle")
-      .attr("fill", function(d) { return d.children ? "#fff" : "steelblue"; })
-      .attr("stroke", function(d) { return d.children ? "#fff" : "#ADADAD"; })
-      .attr("r", function(d) { return d.value/2;})
-      .transition().duration(2000)
-      .attr("r", function(d) { return d.r; })
-      .attr("opacity", .30)
-      .attr("stroke-width", "2");
+    .attr("fill", function(d) { return d.children ? "#fff" : COLORS[d.issue]; })
+    .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
+    .attr("r", function(d) { return d.value/2;})
+    .transition().duration(2000)
+    .attr("r", function(d) { return d.r; })
+    .attr("opacity", .60)
+    .attr("stroke-width", "3");
 
   node.append("text")
-      .text(function(d) {
-        return d.children ? "" : d.issue;
-      });
+    .attr("text-anchor", "middle")
+    .style("font-family", "open sans")
+    .text(function(d) {
+      return d.children ? "" : d.issue;
+    })
+    .style("font-size", function(d) { return Math.min(1.2 * d.r, (1.2 * d.r - 8) / this.getComputedTextLength() * 24) + "px"; })
+    .attr("dy", ".35em");
 }
 
 $(document).ready(function() {
