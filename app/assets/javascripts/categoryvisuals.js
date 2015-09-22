@@ -1,12 +1,15 @@
 var COLORS = {
-  "immigration": "#C25B56",
-  "gay marriage": "#74828F",
-  "education": "#96C0CE",
-  "abortion": "#BEB9B5",
-  "financial debt": "#525564",
-  "terrorism": "#5696BC",
-  "race relations":"#D13F31",
-  "foreign policy":"#DBD1C8"
+  "unemployment": "#C25B56",
+  "taxes": "#74828F",
+  "health care": "#96C0CE",
+  "corporate corruption": "#BEB9B5",
+  "terrorism": "#525564",
+  "foreign policy": "#5696BC",
+  "immigration":"#D13F31",
+  "climate change":"#DBD1C8",
+  "education":"#DBD1C8",
+  "race relations":"#DBD1C8",
+  "marriage equality":"#DBD1C8"
 };
 
 var DEFAULT_CANDIDATE_NAME = "sanders";
@@ -31,7 +34,7 @@ function displayChart(data, candidateName) {
     .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
     .attr("r", function(d) { return d.value/2;})
     .transition().duration(2000)
-    .attr("r", function(d) { return d.r; })
+    .attr("r", function(d) { return d.r + 3; })
     .attr("opacity", .60)
     .attr("stroke-width", "3");
 
@@ -41,7 +44,7 @@ function displayChart(data, candidateName) {
     .text(function(d) {
       return d.children ? "" : d.issue;
     })
-    .style("font-size", function(d) { return Math.min(1.2 * d.r, (1.2 * d.r - 8) / this.getComputedTextLength() * 24) + "px"; })
+    .style("font-size", function(d) { return Math.min(1.2 * d.r, (1.2 * d.r - 8) / this.getComputedTextLength() * 25) + "px"; })
     .attr("dy", ".35em");
 }
 
@@ -62,7 +65,7 @@ $(document).ready(function() {
 
   var candidateData;
 
-  d3.json("fakedata.json", function(data) {
+  d3.json("categories_data.json", function(data) {
     candidateData = data;
     displayChart(candidateData);
 
