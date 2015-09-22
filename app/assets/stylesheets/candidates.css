@@ -1,61 +1,145 @@
-.navbar {
-  margin-left: 5px;
-  width: 19%;
+
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+*{
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
-.sidebar-nav .navbar .navbar-collapse {
-    padding: 0px;
-    max-height: none;
-    width: 25px;
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.sidebar-nav .navbar ul {
-  float: none;
-  display: block;
+#wrapper.toggled {
+    padding-left: 250px;
 }
-.sidebar-nav .navbar li {
-  float: none;
-  display: block;
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
-.sidebar-nav .navbar li a {
-  padding-top: 12px;
-  padding-bottom: 12px;
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin-left: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #2B2A2A;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+        height: 650px;
+        background: white;
+        border: 1px solid #F1EBEB;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        max-width: 900px;
+        padding: 20px;
+        padding-left: 200px;
+        position: relative;
+        width: 1000px;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
 }
 
 .candidates-page-image{
   width: 100%;
-  height: 120px;
+  height: 122px;
+  text-align: center;
  }
-
-.navbar-default .navbar-collapse{
-  margin-left: 0px;
-}
-
-.navbar-default .navbar-nav>li>a {
-  font-family: 'Open Sans', sans-serif;
-  color: #2A2525;
-}
-
-.navbar-nav{
-    max-height: 500px;
-    overflow-y:scroll;
-    margin: 10px;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: gold;
-}
-
-/*.one_republican:hover{
-  color: #E93829;
-}
-
-.one_democrat:hover{
-  color: #21409A;
-}*/
 
 .republican{
   color: #E93829;
@@ -69,6 +153,9 @@
   background-image: url("/images/whitecanvasbackground.png") ;
   margin-top: 0px;
   margin-bottom: 0px;
-  /*border-bottom: none;*/
+  border-bottom: 1px solid #F1EBEB;
 }
 
+.explanation{
+  text-align: center;
+}
