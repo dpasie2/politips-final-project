@@ -9,7 +9,8 @@
   </div>
 
   <div class="button-container">
-  <button type="button" class="btn-lg"><%= link_to "Check Out Candidates", candidates_path %>
+    <%= button_to "Check Out Candidates", candidates_path, method: "get", class: "btn-lg" %>
+  <!-- <button type="button" class="btn-lg"><%= link_to "Check Out Candidates", candidates_path %> -->
   </div>
 
 </div>
@@ -29,4 +30,3 @@
     </div>
   <ul>
 </footer>
-
