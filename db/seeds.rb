@@ -175,7 +175,7 @@ def write_categories_data_to_json
 	Candidate.all.each do |candidate|
 		last_name = candidate.last_name.downcase
 		categories_data[last_name] = { }
-		categories_data[last_name]["children"] = candidate.scorings_to_array_of_hashes
+		categories_data[last_name]["children"] = candidate.categories_data
 	end
 	File.open("public/categories_data.json", "w") do |file|
 		file << categories_data.to_json
