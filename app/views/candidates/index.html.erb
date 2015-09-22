@@ -5,14 +5,16 @@
   <div class="navbar navbar-default" role="navigation">
         <div class="navbar-collapse collapse sidebar-navbar-collapse">
           <ul class="nav navbar-nav">
-            <h5 class="republican"> Republicans </h5>
+            <li class="republican"><h3> Republicans </h3></li>
             <% @candidates.get_party_members("Republican").each do |candidate| %>
               <li class"one-republican"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
             <% end %>
-            <h5 class="democrat"> Democrats </h5>
+            </li>
+            <li class="democrat"><h3> Democrats <h3></li>
             <% @candidates.get_party_members("Democrat").each do |candidate| %>
               <li class="one-democrat"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidate_path %></li>
             <% end %>
+
           </ul>
         </div>
   </div>
@@ -20,3 +22,18 @@
 
     </div>
 </div>
+
+<footer>
+  <ul>
+    <div class"politips">
+      <li class="footer-link"><a href"https://github.com/dpasie2/politips-final-project">politips</a></li>
+    </div>
+    <div class="group-names">
+      <li class="footer-link"><a href"https://github.com/bcahill">bcahill</a></li>
+      <li class="footer-link"><a href"https://github.com/pbsugg">pbsugg</a></li>
+      <li class="footer-link"><a href"https://github.com/colemcampbell">colemcampbell</a></li>
+      <li class="footer-link"><a href"https://github.com/dpasie2">dpasie2</a></li>
+      <li class="footer-link"><a href"https://github.com/alita42">alita42</a></li>
+    </div>
+  <ul>
+</footer>
