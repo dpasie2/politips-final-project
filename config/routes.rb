@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   get 'candidate', to: 'candidates#show'
   get 'candidates/:last_name/tweets', to: 'candidates#tweets'
 
+  get 'polls', to: 'polls#index'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

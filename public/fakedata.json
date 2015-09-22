@@ -1,22 +1,26 @@
 {
   "trump":
-    { "name": "Trump",
-      "party": "republican",
+    {
       "children": [
         { "issue":"immigration", "value": 5 },
         { "issue":"gay marriage", "value": 5 },
         { "issue":"education", "value": 70 },
         { "issue":"abortion", "value": 5 },
+        { "issue":"terrorism", "value": 5 },
+        { "issue":"race relations", "value": 5 },
+        { "issue":"foreign policy", "value": 5 },
         { "issue":"financial debt", "value": 5 }]
     },
   "sanders":
-    { "name": "Sanders",
-      "party": "republican",
+    {
       "children": [
-        { "issue":"immigration", "value": 5 },
-        { "issue":"gay marriage", "value": 5 },
-        { "issue":"education", "value": 5 },
+        { "issue":"immigration", "value": 15 },
+        { "issue":"gay marriage", "value": 80 },
+        { "issue":"education", "value": 22 },
         { "issue":"abortion", "value": 70 },
-        { "issue":"financial debt", "value": 5 }]
+        { "issue":"terrorism", "value": 60 },
+        { "issue":"race relations", "value": 22 },
+        { "issue":"foreign policy", "value": 10 },
+        { "issue":"financial debt", "value": 40 }]
     }
 }
