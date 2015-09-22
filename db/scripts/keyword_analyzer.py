@@ -55,12 +55,10 @@ def extract_candidate_name_from_filename(dir_string):
     result = candidate_name_search_pattern.search(dir_string)
     return result.group(0).title()
 
-def gather_files_and_run_parser():
+def gather_files_and_run_keyword_analysis():
     all_files_to_parse = glob.glob("../raw-text/master-files/*.txt")
     for individual_text in all_files_to_parse:
         candidate = extract_candidate_name_from_filename(individual_text)
         if Candidate.where('last_name', candidate).first():
             instance = CountAllCategories(individual_text, candidate)
             instance.run()
-
-gather_files_and_run_parser()
