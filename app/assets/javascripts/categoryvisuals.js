@@ -34,7 +34,7 @@ function displayChart(data, candidateName) {
     .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
     .attr("r", function(d) { return d.value/2;})
     .transition().duration(2000)
-    .attr("r", function(d) { return d.r + 3; })
+    .attr("r", function(d) { return d.r ; })
     .attr("opacity", .60)
     .attr("stroke-width", "3");
 
@@ -49,7 +49,7 @@ function displayChart(data, candidateName) {
 }
 
 $(document).ready(function() {
-  var width = 800, height = 600;
+  var width = 800, height = 700;
 
   // sets width and height of the canvas
   canvas = d3.select(".d3").append("svg")
@@ -60,7 +60,7 @@ $(document).ready(function() {
 
   // sets the layout to pack
   pack = d3.layout.pack()
-         .size([width, height - 50])
+         .size([width, height])
          .padding(10);
 
   var candidateData;
