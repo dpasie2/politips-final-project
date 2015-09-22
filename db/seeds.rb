@@ -21,7 +21,7 @@ CANDIDATES = {
 	sanders: { first_name: "Bernie", last_name: "Sanders", twitter_handle: "@SenSanders", party: "Democrat", bio: "Bernard 'Bernie' Sanders (born September 8, 1941) is an American politician and the junior United States Senator from Vermont." },
 	santorum: { first_name: "Rick", last_name: "Santorum", twitter_handle: "@RickSantorum", party: "Republican", bio: "Richard John 'Rick' Santorum (born May 10, 1958) is an American attorney and Republican Party politician." },
 	trump: { first_name: "Donald", last_name: "Trump", twitter_handle: "@realDonaldTrump", party: "Republican", bio: "Donald John Trump (born June 14, 1946) is an American real estate developer, television personality, business author and political candidate." },
-	walker: { first_name: "Scott", last_name: "Walker", twitter_handle: "@ScottWalker", party: "Republican", bio: "Scott Kevin Walker (born November 2, 1967) is the 45th Governor of Wisconsin, serving since 2011, and a candidate for the Republican Party's nomination to the 2016 presidential election." },
+	# walker: { first_name: "Scott", last_name: "Walker", twitter_handle: "@ScottWalker", party: "Republican", bio: "Scott Kevin Walker (born November 2, 1967) is the 45th Governor of Wisconsin, serving since 2011, and a candidate for the Republican Party's nomination to the 2016 presidential election." },
 	webb: { first_name: "Jim", last_name: "Webb", twitter_handle: "@JimWebbUSA", party: "Democrat", bio: "James Henry 'Jim' Webb, Jr. (born February 9, 1946) is an American politician and author." }
 }
 
