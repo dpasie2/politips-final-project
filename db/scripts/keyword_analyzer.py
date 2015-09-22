@@ -48,7 +48,7 @@ class CountAllCategories:
             entry = Scoring.create(score=score_val, category_id=category.id, candidate_id=self.candidate.id)
             print(entry)
 
-def extract_candidate_name(dir_string):
+def extract_candidate_name_from_filename(dir_string):
     # pattern is everything between the "speeches/" directory and underscore
     #  (should be just name, capitalized)
     candidate_name_search_pattern = re.compile("(?<=/raw-text/master-files/).+?(?=_)")
@@ -58,7 +58,7 @@ def extract_candidate_name(dir_string):
 def gather_files_and_run_parser():
     all_files_to_parse = glob.glob("../raw-text/master-files/*.txt")
     for individual_text in all_files_to_parse:
-        candidate = extract_candidate_name(individual_text)
+        candidate = extract_candidate_name_from_filename(individual_text)
         if Candidate.where('last_name', candidate).first():
             instance = CountAllCategories(individual_text, candidate)
             instance.run()
