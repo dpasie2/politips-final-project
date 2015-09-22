@@ -47,11 +47,11 @@ $(document).ready(function() {
 
   var candidateData;
 
-  d3.json("fakedata.json", function (data) {
+  d3.json("fakedata.json", function(data) {
     candidateData = data;
     displayChart(candidateData);
 
-    $(".link a").on("click", function (event) {
+    $(".link a").on("click", function(event) {
       event.preventDefault();
       $(".node").remove();
       displayChart(candidateData, this.id)
