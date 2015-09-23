@@ -1,0 +1,56 @@
+.polls-explanation{
+  text-align: center;
+  width: 25%;
+  margin-left: 100px;
+}
+
+#candidate-button{
+  width:25%;
+  float: right;
+}
+
+#side-wrapper.polls-nav{
+  width: 1000px;
+}
+
+#republican-chart-button, #democratic-chart-button{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: white ;
+    width: 200px;
+}
+
+#republican-chart-button{
+  color: #E93829;
+}
+
+#republican-chart-button:hover{
+  background-color: #de786e;
+  color: white;
+}
+
+#democratic-chart-button{
+  color: #21409A;
+}
+
+#democratic-chart-button:hover{
+  background-color: #87acb9;
+  color: white;
+}
+
+.party-tabs{
+  text-align: center;
+}
+
+.polls-page-image{
+  width: 40%;
+  height: 122px;
+ }
+
+.candidates-button{
+  width: 20%;
+}
+
+#element{
+  display: inline-block;
+}
