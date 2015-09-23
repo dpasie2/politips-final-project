@@ -3,6 +3,7 @@
     <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
     <p class="explanation"> Scroll through the candidates, click to see how much a candidate publicly talks about an issue</p>
     </div>
+
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -24,7 +25,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d3">
-
+                        <%= javascript_include_tag("categoryvisuals")%>
                     </div>
             </div>
         </div>
