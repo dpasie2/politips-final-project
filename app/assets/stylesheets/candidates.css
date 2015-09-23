@@ -30,7 +30,7 @@
     width: 0;
     height: 100%;
     margin-left: -250px;
-    overflow-y: auto;
+    overflow-y: scroll;
     background: #000;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -155,6 +155,10 @@
   border-bottom: 1px solid #F1EBEB;
 }
 
-.explanation{
+.bubble-explanation{
   text-align: center;
+}
+
+#poll-button{
+
 }
