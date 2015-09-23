@@ -5,6 +5,7 @@
     <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
     <%= button_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
     </div>
+
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -27,7 +28,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="d3">
-
+                        <%= javascript_include_tag("categoryvisuals")%>
                     </div>
             </div>
         </div>
