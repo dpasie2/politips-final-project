@@ -72,20 +72,27 @@ CATEGORIES = [
 	}
 ]
 
-# candidates = []
-# CANDIDATES.each do |candidate, info|
-# 	candidates << Candidate.create!(info)
-# end
-#
-# categories = []
-# CATEGORIES.each do |category|
-# 	new_category = Category.create!(name: category[:name])
-# 	category[:keywords].each do |keyword|
-# 		new_category.keywords.create!(word: keyword)
-# 	end
-# 	categories << new_category
-# end
+# ======================================================================
 
+# Seed candidates
+candidates = []
+CANDIDATES.each do |candidate, info|
+	candidates << Candidate.create!(info)
+end
+
+# Seed categories and keywords
+categories = []
+CATEGORIES.each do |category|
+	new_category = Category.create!(name: category[:name])
+	category[:keywords].each do |keyword|
+		new_category.keywords.create!(word: keyword)
+	end
+	categories << new_category
+end
+
+# ======================================================================
+
+# Pull tweets and write to files
 # client = Twitter::REST::Client.new do |config|
 # 	config.consumer_key			= Rails.application.secrets.twitter_consumer_key
 # 	config.consumer_secret	= Rails.application.secrets.twitter_consumer_secret
@@ -118,6 +125,9 @@ CATEGORIES = [
 # 	end
 # end
 
+# ======================================================================
+
+# Parse files and write to masters
 # def parse_transcript(file_path)
 # 	transcript = File.read(file_path)
 #
@@ -170,6 +180,9 @@ CATEGORIES = [
 # compile_text("db/raw-text/speeches")
 # compile_text("db/raw-text/tweets")
 
+# ======================================================================
+
+# Write categories data to json file
 # def write_categories_data_to_json
 # 	categories_data = {}
 # 	Candidate.all.each do |candidate|
@@ -180,11 +193,3 @@ CATEGORIES = [
 # 		file << categories_data.to_json
 # 	end
 # end
-#
-# write_categories_data_to_json
-
-puts "START"
-thaBern = Candidate.find_by(last_name: "Sanders")
-taxes = Category.find_by(name: "Taxes")
-tweet_ids = thaBern.load_tweet_ids_for(taxes)
-tweet_ids.each { |tweet_id| p tweet_id }

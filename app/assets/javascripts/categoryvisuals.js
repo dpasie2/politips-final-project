@@ -1,7 +1,23 @@
-var currentCandidate = "Sanders";
-var pack, canvas, nodes, node;
+var pack, canvas, nodes, node,
+    currentCandidate = "Bush",
+    COLORS = {
+      "unemployment": "#D13F31",
+      "taxes": "#A6A6A6",
+      "health care": "#4D94FF",
+      "corporate corruption": "#FF5050",
+      "terrorism": "#525564",
+      "foreign policy": "#E93829",
+      "immigration":"#3366CC",
+      "climate change":"#DBD1C8",
+      "education":"#21409A",
+      "race relations":"#FFABAB",
+      "marriage equality":"#ADC2EB"
+    };
 
 function displayChart(data) {
+  console.log(data);
+  console.log(currentCandidate);
+  console.log(data[currentCandidate]);
   nodes = pack.nodes(data[currentCandidate]);
 
   // binds data to the canvas
@@ -15,22 +31,25 @@ function displayChart(data) {
          });
 
   node.append("circle")
-      .attr("fill", function(d) { return d.children ? "#fff" : "steelblue"; })
-      .attr("stroke", function(d) { return d.children ? "#fff" : "#ADADAD"; })
-      .attr("r", function(d) { return d.value/2;})
-      .transition().duration(2000)
-      .attr("r", function(d) { return d.r; })
-      .attr("opacity", .30)
-      .attr("stroke-width", "2");
+  .attr("fill", function(d) { return d.children ? "#fff" : COLORS[d.issue]; })
+  .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
+  .attr("r", function(d) { return d.value/2;})
+  .transition().duration(2000)
+  .attr("r", function(d) { return d.r + 20; })
+  // .attr("opacity", .90)
+  .attr("stroke-width", "3");
 
   node.append("text")
-      .text(function(d) {
-        return d.children ? "" : d.issue;
-      });
+    .attr("text-anchor", "middle")
+    .style("font-family", "open sans")
+    .text(function(d) {
+      return d.children ? "" : d.issue === "marriage equality" ? "LGBT rights": d.issue === "corporate corruption" ? "corporate crime" : d.issue;
+    })
+    .style("font-size", function(d) { return d.value <= 2 ? "10px" : Math.min(1.3 * d.r, (1.3 * d.r - 8) / this.getComputedTextLength() * 25) + "px"; })
+    .attr("dy", ".35em");
 }
 
 $(document).ready(function() {
-
 	$(".d3").on("click", ".node", function(event) {
 		console.log($(this).find("text").text());
 		var category = $(this).find("text").text();
@@ -38,7 +57,7 @@ $(document).ready(function() {
 		var request = $.ajax({
 			method: "get",
 			url: "/candidates/" + currentCandidate + "/tweets",
-			data: { category: "Taxes" }
+			data: { category: category }
 		});
 		request.done(function(tweet_ids) {
 			$("#twitter-overlay").show();
@@ -72,12 +91,12 @@ $(document).ready(function() {
 
   // sets the layout to pack
   pack = d3.layout.pack()
-         .size([width, height - 50])
-         .padding(10);
+         .size([width, height])
+         .padding(60);
 
   var candidateData;
 
-  d3.json("fakedata.json", function(data) {
+  d3.json("categories_data.json", function(data) {
     candidateData = data;
     displayChart(candidateData);
 
