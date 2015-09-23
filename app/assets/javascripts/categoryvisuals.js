@@ -1,18 +1,18 @@
 var COLORS = {
-  "unemployment": "#C25B56",
-  "taxes": "#74828F",
-  "health care": "#96C0CE",
-  "corporate corruption": "#BEB9B5",
+  "unemployment": "#D13F31",
+  "taxes": "#A6A6A6",
+  "health care": "#4D94FF",
+  "corporate corruption": "#FF5050",
   "terrorism": "#525564",
-  "foreign policy": "#5696BC",
-  "immigration":"#D13F31",
+  "foreign policy": "#E93829",
+  "immigration":"#3366CC",
   "climate change":"#DBD1C8",
-  "education":"#DBD1C8",
-  "race relations":"#DBD1C8",
-  "marriage equality":"#DBD1C8"
+  "education":"#21409A",
+  "race relations":"#FFABAB",
+  "marriage equality":"#ADC2EB"
 };
 
-var DEFAULT_CANDIDATE_NAME = "sanders";
+var DEFAULT_CANDIDATE_NAME = "bush";
 var pack, canvas, nodes, node;
 
 function displayChart(data, candidateName) {
@@ -34,22 +34,22 @@ function displayChart(data, candidateName) {
     .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
     .attr("r", function(d) { return d.value/2;})
     .transition().duration(2000)
-    .attr("r", function(d) { return d.r ; })
-    .attr("opacity", .60)
+    .attr("r", function(d) { return d.r + 20; })
+    // .attr("opacity", .90)
     .attr("stroke-width", "3");
 
   node.append("text")
     .attr("text-anchor", "middle")
     .style("font-family", "open sans")
     .text(function(d) {
-      return d.children ? "" : d.issue;
+      return d.children ? "" : d.issue === "marriage equality" ? "LGBT rights": d.issue === "corporate corruption" ? "corporate crime" : d.issue;
     })
-    .style("font-size", function(d) { return Math.min(1.2 * d.r, (1.2 * d.r - 8) / this.getComputedTextLength() * 25) + "px"; })
+    .style("font-size", function(d) { return d.value <= 2 ? "10px" : Math.min(1.3 * d.r, (1.3 * d.r - 8) / this.getComputedTextLength() * 25) + "px"; })
     .attr("dy", ".35em");
 }
 
 $(document).ready(function() {
-  var width = 800, height = 700;
+  var width = 900, height = 700;
 
   // sets width and height of the canvas
   canvas = d3.select(".d3").append("svg")
@@ -61,7 +61,7 @@ $(document).ready(function() {
   // sets the layout to pack
   pack = d3.layout.pack()
          .size([width, height])
-         .padding(10);
+         .padding(60);
 
   var candidateData;
 
