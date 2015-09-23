@@ -1,35 +1,44 @@
 <div id="wrapper">
-    <div class="page-header">
-    <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
-    <p class="explanation"> Scroll through the candidates, click to see how much a candidate publicly talks about an issue</p>
-    </div>
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="republican"> Republicans </li>
-            <% @candidates.get_party_members("Republican").each do |candidate| %>
-            <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-            <% end %>
-            <li class="democrat"> Democrats </li>
-            <% @candidates.get_party_members("Democrat").each do |candidate| %>
-            <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-            <% end %>
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
+  <div class="page-header">
+  <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
+  <p class="explanation"> Scroll through the candidates, click to see how much a candidate publicly talks about an issue</p>
+  </div>
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="republican"> Republicans </li>
+      <% @candidates.get_party_members("Republican").each do |candidate| %>
+      <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
+      <% end %>
+      <li class="democrat"> Democrats </li>
+      <% @candidates.get_party_members("Democrat").each do |candidate| %>
+      <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
+      <% end %>
+    </ul>
+  </div>
+  <!-- /#sidebar-wrapper -->
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="d3">
+  <!-- Page Content -->
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="d3">
 
-                    </div>
-            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- /#page-content-wrapper -->
-
-</div>
+  </div>
 <!-- /#wrapper -->
+</div>
+
+<div id="twitter-overlay">
+  <div id="tweet-container">
+    <div id="tweet-box">
+
+    </div>
+    <%= button_to "Close", candidates_path, method: "get", class: "btn-lg", id: "close-button" %>
+  </div>
+</div>
