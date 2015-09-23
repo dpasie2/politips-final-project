@@ -18,7 +18,7 @@ $(document).ready( function () {
     .orient("left")
     .tickFormat( function (d) { return d + "%"; });
 
-  var chart = d3.select(".d3")
+  var chart = d3.select(".d3-charts")
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
