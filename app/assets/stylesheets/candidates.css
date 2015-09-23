@@ -136,7 +136,7 @@
 }
 
 .candidates-page-image{
-  width: 100%;
+  width: 50%;
   height: 122px;
   text-align: center;
  }
@@ -156,9 +156,17 @@
 }
 
 .bubble-explanation{
-  text-align: center;
+  text-align: left;
 }
 
 #poll-button{
+    width: 20%;
+}
 
+#element{
+  display: inline-block;
+}
+
+.form-button{
+  display: inline-block;
 }

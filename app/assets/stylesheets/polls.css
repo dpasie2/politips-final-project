@@ -43,14 +43,21 @@
 }
 
 .polls-page-image{
-  width: 40%;
+  width: 50%;
   height: 122px;
  }
 
 .candidates-button{
-  width: 20%;
+  width: 100px;
 }
 
 #element{
+  display: inline-block;
+}
+
+#poll-button{
+  width: 200px;
+}
+.button_to{
   display: inline-block;
 }

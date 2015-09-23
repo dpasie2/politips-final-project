@@ -1,9 +1,11 @@
+
 <div class="page-header">
-    <p class="polls-explanation" id="element"> Click on either Party to see how they stand in the Presidential Race</p>
     <%= image_tag( "banner-copy2.svg", class: "polls-page-image", id: "element") %>
-    <button type="button" class="btn-lg candidates-button" id="element">Candidate Posistions</button>
-    </div>
-    <!-- Sidebar -->
+    <form class ="form-button" action="/candidates" method="get">
+        <button type="button" class="btn-lg candidates-button" id="element">Candidate Positions</button>
+    </form>
+</div>
+
 
     <ul class="party-tabs">
         <button id="republican-chart-button"  type="button"> Republicans </button>

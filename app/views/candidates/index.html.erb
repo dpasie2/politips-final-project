@@ -1,39 +1,33 @@
-<div id="wrapper">
-
-
-    <div class="page-header">
-    <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
+<div class="page-header">
+    <%= image_tag( "banner-copy2.svg", class: "candidates-page-image", id:"element") %>
     <%= button_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
-    </div>
+</div>
 
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="republican"> Republicans </li>
-            <% @candidates.get_party_members("Republican").each do |candidate| %>
-            <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-            <% end %>
-            <li class="democrat"> Democrats </li>
-            <% @candidates.get_party_members("Democrat").each do |candidate| %>
-            <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-            <% end %>
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="republican"> Republicans </li>
+        <% @candidates.get_party_members("Republican").each do |candidate| %>
+        <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
+        <% end %>
+        <li class="democrat"> Democrats </li>
+        <% @candidates.get_party_members("Democrat").each do |candidate| %>
+        <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
+        <% end %>
+    </ul>
+</div>
+<!-- /#sidebar-wrapper -->
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
-        <p class="bubble-explanation"> Scroll through the candidates, click to see how much a candidate publicly talks about an issue</p>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="d3">
-                        <%= javascript_include_tag("categoryvisuals")%>
-                    </div>
-            </div>
+<!-- Page Content -->
+<div id="page-content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="d3">
+                    <%= javascript_include_tag("categoryvisuals")%>
+                </div>
         </div>
     </div>
-    <!-- /#page-content-wrapper -->
-
 </div>
-<!-- /#wrapper -->
+<!-- /#page-content-wrapper -->
+
