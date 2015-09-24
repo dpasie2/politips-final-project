@@ -1,1 +1,7 @@
-[{"choice":"Chafee","value":1,"first_name":"Lincoln","last_name":"Chafee","party":"Dem","incumbent":false},{"choice":"Clinton","value":49,"first_name":"Hillary","last_name":"Clinton","party":"Dem","incumbent":false},{"choice":"O'Malley","value":2,"first_name":"Martin","last_name":"O'Malley","party":"Dem","incumbent":false},{"choice":"Sanders","value":28,"first_name":"Bernie","last_name":"Sanders","party":"Dem","incumbent":false},{"choice":"Webb","value":1,"first_name":"Jim","last_name":"Webb","party":"Dem","incumbent":false},{"choice":"Other","value":6,"first_name":null,"last_name":null,"party":null,"incumbent":null},{"choice":"Undecided","value":13,"first_name":null,"last_name":null,"party":null,"incumbent":null}]
+[{"choice":"Chafee","value":1,"first_name":"Lincoln","last_name":"Chafee","party":"Dem","incumbent":false},
+{"choice":"Clinton","value":49,"first_name":"Hillary","last_name":"Clinton","party":"Dem","incumbent":false},
+{"choice":"O'Malley","value":2,"first_name":"Martin","last_name":"O'Malley","party":"Dem","incumbent":false},
+{"choice":"Sanders","value":28,"first_name":"Bernie","last_name":"Sanders","party":"Dem","incumbent":false},
+{"choice":"Webb","value":1,"first_name":"Jim","last_name":"Webb","party":"Dem","incumbent":false},
+{"choice":"Other","value":6,"first_name":null,"last_name":null,"party":null,"incumbent":null},
+{"choice":"Undecided","value":13,"first_name":null,"last_name":null,"party":null,"incumbent":null}]
