@@ -1,42 +1,40 @@
-var COLORS = {
-  "unemployment": "#D13F31",
-  "taxes": "#A6A6A6",
-  "health care": "#4D94FF",
-  "corporate corruption": "#FF5050",
-  "terrorism": "#525564",
-  "foreign policy": "#E93829",
-  "immigration":"#3366CC",
-  "climate change":"#DBD1C8",
-  "education":"#21409A",
-  "race relations":"#FFABAB",
-  "marriage equality":"#ADC2EB"
-};
+var pack, canvas, nodes, node,
+    currentCandidate = "Bush",
+    COLORS = {
+      "unemployment": "#D13F31",
+      "taxes": "#A6A6A6",
+      "health care": "#4D94FF",
+      "corporate corruption": "#FF5050",
+      "terrorism": "#525564",
+      "foreign policy": "#E93829",
+      "immigration":"#3366CC",
+      "climate change":"#DBD1C8",
+      "education":"#21409A",
+      "race relations":"#FFABAB",
+      "marriage equality":"#ADC2EB"
+    };
 
-var DEFAULT_CANDIDATE_NAME = "bush";
-var pack, canvas, nodes, node;
-
-function displayChart(data, candidateName) {
-  candidateName = candidateName || DEFAULT_CANDIDATE_NAME
-  nodes = pack.nodes(data[candidateName.toLowerCase()]);
+function displayChart(data) {
+  nodes = pack.nodes(data[currentCandidate]);
 
   // binds data to the canvas
   node = canvas.selectAll(".node")
-   .data(nodes)
-   .enter()
-   .append("g")
-   .attr("class", "node")
-   .attr("transform", function (d) {
-     return "translate(" + d.x + "," + d.y + ")";
-   });
+         .data(nodes)
+         .enter()
+         .append("g")
+         .attr("class", "node")
+         .attr("transform", function (d) {
+           return "translate(" + d.x + "," + d.y + ")";
+         });
 
   node.append("circle")
-    .attr("fill", function(d) { return d.children ? "#fff" : COLORS[d.issue]; })
-    .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
-    .attr("r", function(d) { return d.value/2;})
-    .transition().duration(2000)
-    .attr("r", function(d) { return d.r + 20; })
-    // .attr("opacity", .90)
-    .attr("stroke-width", "3");
+  .attr("fill", function(d) { return d.children ? "#fff" : COLORS[d.issue]; })
+  .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
+  .attr("r", function(d) { return d.value/2;})
+  .transition().duration(2000)
+  .attr("r", function(d) { return d.r + 20; })
+  // .attr("opacity", .90)
+  .attr("stroke-width", "3");
 
   node.append("text")
     .attr("text-anchor", "middle")
@@ -49,7 +47,46 @@ function displayChart(data, candidateName) {
 }
 
 $(document).ready(function() {
-  var width = 900, height = 700;
+	$(".d3").on("click", ".node", function(event) {
+		var category = $(this).find("text").text();
+
+		var request = $.ajax({
+			method: "get",
+			url: "/candidates/" + currentCandidate + "/tweets",
+			data: { category: category }
+		});
+		request.done(function(tweet_ids) {
+      $("#sidebar-wrapper").hide();
+			$("#twitter-overlay").show();
+			$("#tweet-container").show();
+			$("#tweet-box").show();
+			tweet_ids.forEach(function(tweet_id) {
+				twttr.widgets.createTweet(
+					tweet_id,
+					document.getElementById('tweet-box'),
+					{
+						theme: "dark"
+					}
+				)
+				.then(function(element) {
+					$("iframe").each(function() {
+						$(this).width(500);
+					});
+				});
+			});
+		});
+	});
+
+  $("#close-button").on("click", function(event) {
+    event.preventDefault();
+    $("#sidebar-wrapper").show();
+    $("#twitter-overlay").hide();
+    $("#tweet-container").hide();
+    $("#tweet-box").hide();
+    $("iframe").remove();
+  });
+
+  var width = 800, height = 600;
 
   // sets width and height of the canvas
   canvas = d3.select(".d3").append("svg")
@@ -70,10 +107,14 @@ $(document).ready(function() {
     candidateData = data;
     displayChart(candidateData);
 
+    $("#candidate-header").text("Jeb Bush")
+
     $(".link a").on("click", function(event) {
       event.preventDefault();
       $(".node").remove();
-      displayChart(candidateData, this.id)
+			currentCandidate = this.id;
+      $("#candidate-header").text($(this).text());
+      displayChart(candidateData);
     });
   });
 });

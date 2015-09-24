@@ -6,8 +6,10 @@ class Candidate < ActiveRecord::Base
    Candidate.where(party: party)
   end
 
-  def search_tweets_for(category)
-
+  def load_tweet_ids_for(category)
+    client = TwitterAPI.client
+    tweets = client.search("from:#{self.twitter_handle} #{category.keywords_search_operator}").take(5)
+    tweets.map { |tweet| tweet.id.to_s }
   end
 
   def categories_data

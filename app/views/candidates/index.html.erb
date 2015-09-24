@@ -1,26 +1,37 @@
-
-    <div class="page-header">
+  <div class="page-header">
     <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
     <%= link_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
-    </div>
+  </div>
 
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="republican"> Republicans </li>
-            <% @candidates.get_party_members("Republican").each do |candidate| %>
-            <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-            <% end %>
-            <li class="democrat"> Democrats </li>
-            <% @candidates.get_party_members("Democrat").each do |candidate| %>
-            <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-            <% end %>
-        </ul>
-    </div>
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="republican"> Republicans </li>
+      <% @candidates.get_party_members("Republican").each do |candidate| %>
+      <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
+      <% end %>
+      <li class="democrat"> Democrats </li>
+      <% @candidates.get_party_members("Democrat").each do |candidate| %>
+      <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
+      <% end %>
+    </ul>
+  </div>
 
-    <div id="content">
-        <p class="bubble-explanation"> Scroll through the candidates, click to see how much a candidate publicly talks about an issue</p>
-        <div class="d3">
-            <%= javascript_include_tag("categoryvisuals")%>
-        </div>
+  <div id="content">
+    <h3 id="candidate-header"></h3>
+    <p class="bubble-explanation">
+      Scroll through the candidates, click to see how much a candidate publicly talks about an issue
+    </p>
+    <div class="d3">
+      <%= javascript_include_tag("categoryvisuals")%>
     </div>
+  </div>
 
+
+  <div id="twitter-overlay">
+    <div id="tweet-container">
+      <div id="tweet-box">
+
+      </div>
+      <%= button_to "Close", candidates_path, method: "get", class: "btn-lg", id: "close-button" %>
+    </div>
+  </div>
