@@ -28,47 +28,47 @@ CANDIDATES = {
 CATEGORIES = [
 	{
 		name: "Unemployment",
-		keywords: ["unemployment", "reform", "welfare", "homelessness", "poverty", "hunger", "labor", "union"]
+		keywords: ["unemployment", "unemployed", "welfare", "homelessness", "poverty", "hunger", "labor", "wage", "retire", "hire" ]
 	},
 	{
 		name: "Taxes",
-		keywords: ["tax", "refund", "wealth", "inheritance", "cuts", "interest", "irs", "reform"]
+		keywords: ["tax", "taxes" "refund", "wealth", "inheritance", "cuts", "interest", "irs", "economy", "audit", "fiscal", "budgetary", "evasion", "deductible", "1099" ]
 	},
 	{
 		name: "Health Care",
-		keywords: ["health", "care", "healthcare", "obamacare", "medicare", "medicaid", "insurance", "abortion"]
+		keywords: ["health", "healthcare", "obamacare", "medicare", "medicaid", "insurance", "abortion", "zadroga", "addiction", "epidemic", "parenthood", "drug", "pharmaceutical", "doctor"]
 	},
 	{
-		name: "Corporate Corruption",
-		keywords: ["corporate", "corruption", "lobbying", "inequality", "wages"]
+		name: "Corporate Crime",
+		keywords: ["corporate", "lobbying", "contractors", "business", "koch", "launder", "embezzle", "bribe", "insider", "privatization" ]
 	},
 	{
 		name: "Terrorism",
-		keywords: ["terrorism", "isis", "bengazi", "iran", "cyberterrorism", "islam"]
+		keywords: ["terror", "terrorism", "isis", "bengazi", "cyberterrorism", "drone", "islamist", "threat"]
 	},
 	{
 		name: "Foreign Policy",
-		keywords: ["foreign", "china", "cuba", "trade", "afghanistan"]
+		keywords: ["foreign", "china", "cuba", "trade", "afghanistan", "international", "diplomacy", "overseas", "commerce", "embassy"]
 	},
 	{
 		name: "Immigration",
-		keywords: ["immigration", "reform", "undocumented", "illegal"]
+		keywords: ["immigration", "immigrant", "reform", "undocumented", "illegal", "border", "citizenship", "naturalization", "alien", "deport", "mexico", "visa"]
 	},
 	{
 		name: "Climate Change",
-		keywords: ["climate", "energy", "keystone", "green"]
+		keywords: ["climate", "energy", "keystone", "green", "recycling", "drilling", "solar", "environment", "fuel", "atmosphere", "pollution", ""]
 	},
 	{
 		name: "Education",
-		keywords: ["education", "testing", "stem", "technology", "reform", "vouchers"]
+		keywords: ["education", "testing", "stem", "technology", "university", "vouchers", "student", "teachers", "college", "campus", "tuition"]
 	},
 	{
 		name: "Race Relations",
-		keywords: ["race", "ferguson", "racism", "incarceration", "diversity", "black", "hispanic"]
+		keywords: ["african", "ferguson", "racism", "incarceration", "diversity", "black", "hispanic", "voting"]
 	},
 	{
-		name: "Marriage Equality",
-		keywords: ["marriage", "equality", "homosexual", "gay", "transgender", "lesbian", "legalization", "tradition"]
+		name: "LGBT rights",
+		keywords: ["marriage", "equality", "homosexual", "gay", "transgender", "lesbian", "legalization", "tradition", "bisexual"]
 	}
 ]
 

@@ -1,0 +1,12 @@
+<div class="page-header">
+    <%= link_to "Voter Registration", positivity_path, method: "get", class: "btn-lg", id:"registration-button" %>
+    <%= image_tag( "banner-copy2.svg", class: "polls-page-image", id: "element") %>
+    <%= link_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
+    <%= link_to "Candidate Positions", candidates_path, method: "get", class: "btn-lg", id:"candidates-button" %>
+</div>
+
+<h1 class="chart-title">Most Positive Tweeters: Primary Frontrunners</h1>
+<h5 class="chart-subtitle">Measured by Previous 25 Tweets</h5>
+  <div id="wrapper">
+    <%= javascript_include_tag("positivity")%>
+  </div>
