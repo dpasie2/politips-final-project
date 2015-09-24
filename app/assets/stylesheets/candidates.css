@@ -49,9 +49,6 @@
     background-color: rgba(0,0,0,.5);
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
-.active {
-  background-color: lightgrey;
-}
 
 #wrapper.toggled #sidebar-wrapper {
     width: 250px;
@@ -99,6 +96,7 @@
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
+    background-color: lightgrey;
 }
 
 .sidebar-nav > .sidebar-brand {
