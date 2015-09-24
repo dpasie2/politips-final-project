@@ -18,3 +18,4 @@
 //= require candidates
 //= require npm
 //= require welcome
+//= require navbar
