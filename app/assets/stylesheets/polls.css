@@ -59,7 +59,7 @@
 #polls-chart {
   display: block;
   margin: auto;
-  width: 1400px;
+  width: 100%;
 }
 
 #registration-button{
