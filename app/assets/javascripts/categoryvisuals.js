@@ -2,16 +2,16 @@ var pack, canvas, nodes, node,
     currentCandidate = "Bush",
     COLORS = {
       "unemployment": "#D13F31",
-      "taxes": "#A6A6A6",
+      "economy": "#A6A6A6",
       "health care": "#4D94FF",
-      "corporate corruption": "#FF5050",
+      "corporate crime": "#FF5050",
       "terrorism": "#525564",
       "foreign policy": "#E93829",
       "immigration":"#3366CC",
       "climate change":"#DBD1C8",
       "education":"#21409A",
       "race relations":"#FFABAB",
-      "marriage equality":"#ADC2EB"
+      "lgbt rights":"#ADC2EB"
     };
 
 function displayChart(data) {
@@ -40,7 +40,7 @@ function displayChart(data) {
     .attr("text-anchor", "middle")
     .style("font-family", "open sans")
     .text(function(d) {
-      return d.children ? "" : d.issue === "marriage equality" ? "LGBT rights": d.issue === "corporate corruption" ? "corporate crime" : d.issue;
+      return d.children ? "" : d.issue === "lgbt rights" ? "LGBT rights" : d.issue;
     })
     .style("font-size", function(d) { return d.value <= 2 ? "10px" : Math.min(1.3 * d.r, (1.3 * d.r - 8) / this.getComputedTextLength() * 25) + "px"; })
     .attr("dy", ".35em");

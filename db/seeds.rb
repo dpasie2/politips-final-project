@@ -1,4 +1,3 @@
-# require "twitter"
 require "csv"
 
 CANDIDATES = {
@@ -27,72 +26,72 @@ CANDIDATES = {
 
 CATEGORIES = [
 	{
-		name: "Unemployment",
+		name: "unemployment",
 		keywords: ["unemployment", "unemployed", "welfare", "homelessness", "poverty", "hunger", "labor", "wage", "retire", "hire" ]
 	},
 	{
-		name: "Taxes",
+		name: "economy",
 		keywords: ["tax", "taxes" "refund", "wealth", "inheritance", "cuts", "interest", "irs", "economy", "audit", "fiscal", "budgetary", "evasion", "deductible", "1099" ]
 	},
 	{
-		name: "Health Care",
+		name: "health care",
 		keywords: ["health", "healthcare", "obamacare", "medicare", "medicaid", "insurance", "abortion", "zadroga", "addiction", "epidemic", "parenthood", "drug", "pharmaceutical", "doctor"]
 	},
 	{
-		name: "Corporate Crime",
+		name: "corporate crime",
 		keywords: ["corporate", "lobbying", "contractors", "business", "koch", "launder", "embezzle", "bribe", "insider", "privatization" ]
 	},
 	{
-		name: "Terrorism",
+		name: "terrorism",
 		keywords: ["terror", "terrorism", "isis", "bengazi", "cyberterrorism", "drone", "islamist", "threat"]
 	},
 	{
-		name: "Foreign Policy",
+		name: "foreign policy",
 		keywords: ["foreign", "china", "cuba", "trade", "afghanistan", "international", "diplomacy", "overseas", "commerce", "embassy"]
 	},
 	{
-		name: "Immigration",
-		keywords: ["immigration", "immigrant", "reform", "undocumented", "illegal", "border", "citizenship", "naturalization", "alien", "deport", "mexico", "visa"]
+		name: "immigration",
+		keywords: ["immigration", "immigrant", "undocumented", "illegal", "border", "citizenship", "naturalization", "alien", "deport", "mexico", "visa"]
 	},
 	{
-		name: "Climate Change",
+		name: "climate change",
 		keywords: ["climate", "energy", "keystone", "green", "recycling", "drilling", "solar", "environment", "fuel", "atmosphere", "pollution", ""]
 	},
 	{
-		name: "Education",
+		name: "education",
 		keywords: ["education", "testing", "stem", "technology", "university", "vouchers", "student", "teachers", "college", "campus", "tuition"]
 	},
 	{
-		name: "Race Relations",
+		name: "race relations",
 		keywords: ["african", "ferguson", "racism", "incarceration", "diversity", "black", "hispanic", "voting"]
 	},
 	{
-		name: "LGBT rights",
+		name: "lgbt rights",
 		keywords: ["marriage", "equality", "homosexual", "gay", "transgender", "lesbian", "legalization", "tradition", "bisexual"]
 	}
 ]
 
-# ======================================================================
-
-# Seed candidates
-candidates = []
-CANDIDATES.each do |candidate, info|
-	candidates << Candidate.create!(info)
-end
-
-# Seed categories and keywords
-categories = []
-CATEGORIES.each do |category|
-	new_category = Category.create!(name: category[:name])
-	category[:keywords].each do |keyword|
-		new_category.keywords.create!(word: keyword)
-	end
-	categories << new_category
-end
-
-# ======================================================================
-
-# Pull tweets and write to files
+# # ======================================================================
+#
+# # Seed candidates
+# candidates = []
+# CANDIDATES.each do |candidate, info|
+# 	candidates << Candidate.create!(info)
+# end
+#
+# # Seed categories and keywords
+# categories = []
+# CATEGORIES.each do |category|
+# 	new_category = Category.create!(name: category[:name])
+# 	category[:keywords].each do |keyword|
+# 		new_category.keywords.create!(word: keyword)
+# 	end
+# 	categories << new_category
+# end
+#
+# # ======================================================================
+#
+# # Pull tweets and write to files
 # client = TwitterAPI.client
 #
 # tweets = {}
@@ -113,10 +112,10 @@ end
 # 		end
 # 	end
 # end
-
-# ======================================================================
-
-# Parse files and write to masters
+#
+# # ======================================================================
+#
+# # Parse files and write to masters
 # def parse_transcript(file_path)
 # 	transcript = File.read(file_path)
 #
@@ -168,14 +167,14 @@ end
 #
 # compile_text("db/raw-text/speeches")
 # compile_text("db/raw-text/tweets")
-
-# ======================================================================
-
-IO.popen("python ~/DEV Bootcamp/Phase 3/politips-final-project/db/nlp_runner.py development")
-
-# ======================================================================
-
-# Write categories data to json file
+#
+# # ======================================================================
+#
+# # IO.popen("python ~/DEV Bootcamp/Phase 3/politips-final-project/db/nlp_runner.py development")
+#
+# # ======================================================================
+#
+# # Write categories data to json file
 # def write_categories_data_to_json
 # 	categories_data = {}
 # 	Candidate.all.each do |candidate|
@@ -186,3 +185,5 @@ IO.popen("python ~/DEV Bootcamp/Phase 3/politips-final-project/db/nlp_runner.py 
 # 		file << categories_data.to_json
 # 	end
 # end
+#
+# write_categories_data_to_json
