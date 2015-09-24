@@ -1,25 +1,22 @@
 <div class="page-header">
-    <p class="polls-explanation" id="element"> Click on either Party to see how they stand in the Presidential Race</p>
-    <%= image_tag( "banner-copy2.svg", class: "polls-page-image", id: "element") %>
-    <button type="button" class="btn-lg candidates-button" id="element">Candidate Posistions</button>
-    </div>
-    <!-- Sidebar -->
 
-    <ul class="party-tabs">
+    <%= image_tag( "banner-copy2.svg", class: "polls-page-image", id: "element") %>
+    <%= link_to "Candidate Positions", candidates_path, method: "get", class: "btn-lg", id:"candidates-button" %>
+</div>
+    <!-- Sidebar -->
+<div class="buffer">
+    <div class="party-tabs">
         <button id="republican-chart-button"  type="button"> Republicans </button>
-        <button id="democratic-chart-button"  type="button"> Democrats </button>
-    </ul>
+        <button id="democratic-chart-button"  type="button"> Democrats </button><br>
+        <p class="polls-explanation" id="element"> Click on either Party to see how they stand in the Presidential Race</p>
+    </div>
+</div>
+
+
 
 
     <div id="d3-charts">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="d3-charts">
-                        <%= javascript_include_tag("pollingvisuals")%>
-                    </div>
-                </div>
-            </div>
+        <div class="d3-charts">
+            <%= javascript_include_tag("pollingvisuals")%>
         </div>
     </div>
-</div>

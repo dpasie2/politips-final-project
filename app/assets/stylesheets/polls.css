@@ -1,56 +1,61 @@
-.polls-explanation{
+.polls-explanation {
   text-align: center;
-  width: 25%;
-  margin-left: 100px;
+  display: inline-block;
 }
 
-#candidate-button{
-  width:25%;
+#candidate-button {
+  width:30%;
   float: right;
 }
 
-#side-wrapper.polls-nav{
+#side-wrapper.polls-nav {
   width: 1000px;
 }
 
-#republican-chart-button, #democratic-chart-button{
+#republican-chart-button, #democratic-chart-button {
     font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: white ;
     width: 200px;
 }
 
-#republican-chart-button{
+#republican-chart-button {
   color: #E93829;
 }
 
-#republican-chart-button:hover{
+#republican-chart-button:hover {
   background-color: #de786e;
   color: white;
 }
 
-#democratic-chart-button{
+#democratic-chart-button {
   color: #21409A;
 }
 
-#democratic-chart-button:hover{
+#democratic-chart-button:hover {
   background-color: #87acb9;
   color: white;
 }
 
-.party-tabs{
+.party-tabs {
   text-align: center;
 }
 
-.polls-page-image{
-  width: 40%;
+.polls-page-image {
+  width: 60%;
   height: 122px;
  }
 
-.candidates-button{
+.candidates-button {
   width: 20%;
 }
 
-#element{
+#element {
   display: inline-block;
+}
+
+#polls-chart {
+  display: block;
+  margin: auto;
+  width: 1400px;
 }
