@@ -11,7 +11,7 @@ $("#republican-chart-button").on("click", function(event) {
     $(".d3-charts").empty()
     var repubs = "2016-president-gop-primary.json"
     margin = {top: 20, right: 20, bottom: 30, left: 100};
-    width = 1600 - margin.left - margin.right;
+    width = 1400 - margin.left - margin.right;
     polling_chart(repubs);
   });
 
