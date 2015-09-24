@@ -127,7 +127,9 @@
 }
 
 .candidates-page-image {
-  width: 57%;
+  margin-right: -55px;
+  margin-left: 218px;
+  width: 44%;
   height: 122px;
  }
 
