@@ -1,6 +1,6 @@
 $(document).ready( function () {
 
-margin = {top: 20, right: 20, bottom: 30, left: 300};
+margin = {top: 20, right: 20, bottom: 30, left: 200};
 width = 1200 - margin.left - margin.right;
 height = 400 - margin.top - margin.bottom;
 dems = "2016-president-dem-primary.json"
