@@ -15,9 +15,6 @@ var pack, canvas, nodes, node,
     };
 
 function displayChart(data) {
-  console.log(data);
-  console.log(currentCandidate);
-  console.log(data[currentCandidate]);
   nodes = pack.nodes(data[currentCandidate]);
 
   // binds data to the canvas
@@ -51,7 +48,6 @@ function displayChart(data) {
 
 $(document).ready(function() {
 	$(".d3").on("click", ".node", function(event) {
-		console.log($(this).find("text").text());
 		var category = $(this).find("text").text();
 
 		var request = $.ajax({
@@ -60,6 +56,7 @@ $(document).ready(function() {
 			data: { category: category }
 		});
 		request.done(function(tweet_ids) {
+      $("#sidebar-wrapper").hide();
 			$("#twitter-overlay").show();
 			$("#tweet-container").show();
 			$("#tweet-box").show();
@@ -79,6 +76,15 @@ $(document).ready(function() {
 			});
 		});
 	});
+
+  $("#close-button").on("click", function(event) {
+    event.preventDefault();
+    $("#sidebar-wrapper").show();
+    $("#twitter-overlay").hide();
+    $("#tweet-container").hide();
+    $("#tweet-box").hide();
+    $("iframe").remove();
+  });
 
   var width = 800, height = 600;
 

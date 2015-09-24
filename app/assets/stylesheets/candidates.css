@@ -159,6 +159,17 @@
   text-align: center;
 }
 
+#sidebar-overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.87;
+}
+
 #twitter-overlay {
   display: none;
   position: absolute;
