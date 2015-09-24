@@ -89,29 +89,29 @@ CATEGORIES.each do |category|
 	categories << new_category
 end
 
-# ======================================================================
-
-# Pull tweets and write to files
-client = TwitterAPI.client
-
-tweets = {}
-
-CANDIDATES.each do |candidate, candidate_info|
-	begin
-		tweets[candidate] = TwitterAPI.get_all_tweets(candidate_info[:twitter_handle])
-	rescue Twitter::Error::TooManyRequests => error
-		sleep error.rate_limit.reset_in + 1
-		redo
-	end
-end
-
-tweets.each do |candidate, candidate_tweets|
-	File.open("db/raw-text/tweets/#{candidate}_tweets.txt", "w") do |file|
-		candidate_tweets.each do |tweet|
-			file << "#{tweet.text}\n"
-		end
-	end
-end
+# # ======================================================================
+#
+# # Pull tweets and write to files
+# client = TwitterAPI.client
+#
+# tweets = {}
+#
+# CANDIDATES.each do |candidate, candidate_info|
+# 	begin
+# 		tweets[candidate] = TwitterAPI.get_all_tweets(candidate_info[:twitter_handle])
+# 	rescue Twitter::Error::TooManyRequests => error
+# 		sleep error.rate_limit.reset_in + 1
+# 		redo
+# 	end
+# end
+#
+# tweets.each do |candidate, candidate_tweets|
+# 	File.open("db/raw-text/tweets/#{candidate}_tweets.txt", "w") do |file|
+# 		candidate_tweets.each do |tweet|
+# 			file << "#{tweet.text}\n"
+# 		end
+# 	end
+# end
 
 # ======================================================================
 

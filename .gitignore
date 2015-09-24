@@ -4,7 +4,6 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-/db/raw-text/master-files/*
 .env
 # Ignore bundler config.
 /.bundle
@@ -15,7 +14,5 @@
 /tmp
 /tmp/*
 *.pyc
-/db/raw-text/*
 /app/assets/.DS_Store
 /app/assets/javascripts/.DS_Store
-
