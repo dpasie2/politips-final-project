@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get 'candidates', to: 'candidates#index'
   get 'candidate', to: 'candidates#show'
+  get 'candidates/:last_name/tweets', to: 'candidates#tweets'
 
   get 'polls', to: 'polls#index'
 

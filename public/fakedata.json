@@ -1,5 +1,5 @@
 {
-  "trump":
+  "Trump":
     {
       "children": [
         { "issue":"immigration", "value": 5 },
@@ -11,7 +11,7 @@
         { "issue":"foreign policy", "value": 5 },
         { "issue":"financial debt", "value": 5 }]
     },
-  "sanders":
+  "Sanders":
     {
       "children": [
         { "issue":"immigration", "value": 15 },
