@@ -8,6 +8,7 @@ module TwitterAPI
 	end
 
 	def self.get_all_tweets(user)
+		client = self.client
 		def client.get_all_tweets(user)
 		  collect_with_max_id do |max_id|
 		    options = {count: 200, include_rts: false}
@@ -16,7 +17,7 @@ module TwitterAPI
 		  end
 		end
 
-		self.client.get_all_tweets
+		client.get_all_tweets(user)
 	end
 
 end
