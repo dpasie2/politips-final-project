@@ -1,0 +1,722 @@
+{
+  "Trump": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 1
+    }, {
+      "issue": "economy",
+      "value": 12
+    }, {
+      "issue": "health care",
+      "value": 7
+    }, {
+      "issue": "corporate crime",
+      "value": 10
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 16
+    }, {
+      "issue": "immigration",
+      "value": 40
+    }, {
+      "issue": "climate change",
+      "value": 2
+    }, {
+      "issue": "education",
+      "value": 4
+    }, {
+      "issue": "race relations",
+      "value": 8
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Carson": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 6
+    }, {
+      "issue": "economy",
+      "value": 12
+    }, {
+      "issue": "health care",
+      "value": 35
+    }, {
+      "issue": "corporate crime",
+      "value": 5
+    }, {
+      "issue": "terrorism",
+      "value": 3
+    }, {
+      "issue": "foreign policy",
+      "value": 5
+    }, {
+      "issue": "immigration",
+      "value": 7
+    }, {
+      "issue": "climate change",
+      "value": 4
+    }, {
+      "issue": "education",
+      "value": 14
+    }, {
+      "issue": "race relations",
+      "value": 8
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Fiorina": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 12
+    }, {
+      "issue": "economy",
+      "value": 24
+    }, {
+      "issue": "health care",
+      "value": 13
+    }, {
+      "issue": "corporate crime",
+      "value": 17
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 6
+    }, {
+      "issue": "immigration",
+      "value": 9
+    }, {
+      "issue": "climate change",
+      "value": 5
+    }, {
+      "issue": "education",
+      "value": 11
+    }, {
+      "issue": "race relations",
+      "value": 2
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Cruz": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 3
+    }, {
+      "issue": "economy",
+      "value": 18
+    }, {
+      "issue": "health care",
+      "value": 45
+    }, {
+      "issue": "corporate crime",
+      "value": 4
+    }, {
+      "issue": "terrorism",
+      "value": 4
+    }, {
+      "issue": "foreign policy",
+      "value": 4
+    }, {
+      "issue": "immigration",
+      "value": 14
+    }, {
+      "issue": "climate change",
+      "value": 3
+    }, {
+      "issue": "education",
+      "value": 3
+    }, {
+      "issue": "race relations",
+      "value": 1
+    }, {
+      "issue": "lgbt rights",
+      "value": 2
+    }]
+  },
+  "Rubio": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 5
+    }, {
+      "issue": "economy",
+      "value": 25
+    }, {
+      "issue": "health care",
+      "value": 22
+    }, {
+      "issue": "corporate crime",
+      "value": 4
+    }, {
+      "issue": "terrorism",
+      "value": 3
+    }, {
+      "issue": "foreign policy",
+      "value": 16
+    }, {
+      "issue": "immigration",
+      "value": 8
+    }, {
+      "issue": "climate change",
+      "value": 4
+    }, {
+      "issue": "education",
+      "value": 9
+    }, {
+      "issue": "race relations",
+      "value": 2
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Bush": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 2
+    }, {
+      "issue": "economy",
+      "value": 15
+    }, {
+      "issue": "health care",
+      "value": 8
+    }, {
+      "issue": "corporate crime",
+      "value": 3
+    }, {
+      "issue": "terrorism",
+      "value": 3
+    }, {
+      "issue": "foreign policy",
+      "value": 9
+    }, {
+      "issue": "immigration",
+      "value": 9
+    }, {
+      "issue": "climate change",
+      "value": 6
+    }, {
+      "issue": "education",
+      "value": 43
+    }, {
+      "issue": "race relations",
+      "value": 2
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Huckabee": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 5
+    }, {
+      "issue": "economy",
+      "value": 21
+    }, {
+      "issue": "health care",
+      "value": 31
+    }, {
+      "issue": "corporate crime",
+      "value": 2
+    }, {
+      "issue": "terrorism",
+      "value": 5
+    }, {
+      "issue": "foreign policy",
+      "value": 7
+    }, {
+      "issue": "immigration",
+      "value": 10
+    }, {
+      "issue": "climate change",
+      "value": 4
+    }, {
+      "issue": "education",
+      "value": 5
+    }, {
+      "issue": "race relations",
+      "value": 3
+    }, {
+      "issue": "lgbt rights",
+      "value": 7
+    }]
+  },
+  "Paul": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 3
+    }, {
+      "issue": "economy",
+      "value": 38
+    }, {
+      "issue": "health care",
+      "value": 15
+    }, {
+      "issue": "corporate crime",
+      "value": 5
+    }, {
+      "issue": "terrorism",
+      "value": 3
+    }, {
+      "issue": "foreign policy",
+      "value": 10
+    }, {
+      "issue": "immigration",
+      "value": 14
+    }, {
+      "issue": "climate change",
+      "value": 4
+    }, {
+      "issue": "education",
+      "value": 6
+    }, {
+      "issue": "race relations",
+      "value": 2
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Jindal": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 3
+    }, {
+      "issue": "economy",
+      "value": 15
+    }, {
+      "issue": "health care",
+      "value": 27
+    }, {
+      "issue": "corporate crime",
+      "value": 7
+    }, {
+      "issue": "terrorism",
+      "value": 2
+    }, {
+      "issue": "foreign policy",
+      "value": 4
+    }, {
+      "issue": "immigration",
+      "value": 9
+    }, {
+      "issue": "climate change",
+      "value": 10
+    }, {
+      "issue": "education",
+      "value": 21
+    }, {
+      "issue": "race relations",
+      "value": 1
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Kasich": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 7
+    }, {
+      "issue": "economy",
+      "value": 36
+    }, {
+      "issue": "health care",
+      "value": 12
+    }, {
+      "issue": "corporate crime",
+      "value": 12
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 3
+    }, {
+      "issue": "immigration",
+      "value": 1
+    }, {
+      "issue": "climate change",
+      "value": 11
+    }, {
+      "issue": "education",
+      "value": 14
+    }, {
+      "issue": "race relations",
+      "value": 1
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Christie": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 7
+    }, {
+      "issue": "economy",
+      "value": 22
+    }, {
+      "issue": "health care",
+      "value": 33
+    }, {
+      "issue": "corporate crime",
+      "value": 6
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 5
+    }, {
+      "issue": "immigration",
+      "value": 2
+    }, {
+      "issue": "climate change",
+      "value": 4
+    }, {
+      "issue": "education",
+      "value": 16
+    }, {
+      "issue": "race relations",
+      "value": 4
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Santorum": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 8
+    }, {
+      "issue": "economy",
+      "value": 16
+    }, {
+      "issue": "health care",
+      "value": 22
+    }, {
+      "issue": "corporate crime",
+      "value": 4
+    }, {
+      "issue": "terrorism",
+      "value": 5
+    }, {
+      "issue": "foreign policy",
+      "value": 9
+    }, {
+      "issue": "immigration",
+      "value": 11
+    }, {
+      "issue": "climate change",
+      "value": 9
+    }, {
+      "issue": "education",
+      "value": 9
+    }, {
+      "issue": "race relations",
+      "value": 3
+    }, {
+      "issue": "lgbt rights",
+      "value": 5
+    }]
+  },
+  "Gilmore": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 5
+    }, {
+      "issue": "economy",
+      "value": 46
+    }, {
+      "issue": "health care",
+      "value": 3
+    }, {
+      "issue": "corporate crime",
+      "value": 11
+    }, {
+      "issue": "terrorism",
+      "value": 5
+    }, {
+      "issue": "foreign policy",
+      "value": 9
+    }, {
+      "issue": "immigration",
+      "value": 20
+    }, {
+      "issue": "climate change",
+      "value": 1
+    }, {
+      "issue": "education",
+      "value": 1
+    }, {
+      "issue": "race relations",
+      "value": 1
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Graham": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 3
+    }, {
+      "issue": "economy",
+      "value": 8
+    }, {
+      "issue": "health care",
+      "value": 31
+    }, {
+      "issue": "corporate crime",
+      "value": 7
+    }, {
+      "issue": "terrorism",
+      "value": 14
+    }, {
+      "issue": "foreign policy",
+      "value": 18
+    }, {
+      "issue": "immigration",
+      "value": 2
+    }, {
+      "issue": "climate change",
+      "value": 9
+    }, {
+      "issue": "education",
+      "value": 4
+    }, {
+      "issue": "race relations",
+      "value": 1
+    }, {
+      "issue": "lgbt rights",
+      "value": 2
+    }]
+  },
+  "Pataki": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 5
+    }, {
+      "issue": "economy",
+      "value": 14
+    }, {
+      "issue": "health care",
+      "value": 12
+    }, {
+      "issue": "corporate crime",
+      "value": 13
+    }, {
+      "issue": "terrorism",
+      "value": 11
+    }, {
+      "issue": "foreign policy",
+      "value": 10
+    }, {
+      "issue": "immigration",
+      "value": 16
+    }, {
+      "issue": "climate change",
+      "value": 6
+    }, {
+      "issue": "education",
+      "value": 9
+    }, {
+      "issue": "race relations",
+      "value": 3
+    }, {
+      "issue": "lgbt rights",
+      "value": 1
+    }]
+  },
+  "Clinton": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 6
+    }, {
+      "issue": "economy",
+      "value": 13
+    }, {
+      "issue": "health care",
+      "value": 17
+    }, {
+      "issue": "corporate crime",
+      "value": 9
+    }, {
+      "issue": "terrorism",
+      "value": 2
+    }, {
+      "issue": "foreign policy",
+      "value": 5
+    }, {
+      "issue": "immigration",
+      "value": 6
+    }, {
+      "issue": "climate change",
+      "value": 6
+    }, {
+      "issue": "education",
+      "value": 18
+    }, {
+      "issue": "race relations",
+      "value": 11
+    }, {
+      "issue": "lgbt rights",
+      "value": 8
+    }]
+  },
+  "Sanders": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 17
+    }, {
+      "issue": "economy",
+      "value": 18
+    }, {
+      "issue": "health care",
+      "value": 17
+    }, {
+      "issue": "corporate crime",
+      "value": 4
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 10
+    }, {
+      "issue": "immigration",
+      "value": 3
+    }, {
+      "issue": "climate change",
+      "value": 10
+    }, {
+      "issue": "education",
+      "value": 12
+    }, {
+      "issue": "race relations",
+      "value": 5
+    }, {
+      "issue": "lgbt rights",
+      "value": 2
+    }]
+  },
+  "O'Malley": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 13
+    }, {
+      "issue": "economy",
+      "value": 14
+    }, {
+      "issue": "health care",
+      "value": 9
+    }, {
+      "issue": "corporate crime",
+      "value": 6
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 3
+    }, {
+      "issue": "immigration",
+      "value": 4
+    }, {
+      "issue": "climate change",
+      "value": 12
+    }, {
+      "issue": "education",
+      "value": 27
+    }, {
+      "issue": "race relations",
+      "value": 5
+    }, {
+      "issue": "lgbt rights",
+      "value": 5
+    }]
+  },
+  "Chafee": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 5
+    }, {
+      "issue": "economy",
+      "value": 13
+    }, {
+      "issue": "health care",
+      "value": 8
+    }, {
+      "issue": "corporate crime",
+      "value": 10
+    }, {
+      "issue": "terrorism",
+      "value": 1
+    }, {
+      "issue": "foreign policy",
+      "value": 7
+    }, {
+      "issue": "immigration",
+      "value": 2
+    }, {
+      "issue": "climate change",
+      "value": 16
+    }, {
+      "issue": "education",
+      "value": 23
+    }, {
+      "issue": "race relations",
+      "value": 4
+    }, {
+      "issue": "lgbt rights",
+      "value": 11
+    }]
+  },
+  "Webb": {
+    "children": [{
+      "issue": "unemployment",
+      "value": 11
+    }, {
+      "issue": "economy",
+      "value": 19
+    }, {
+      "issue": "health care",
+      "value": 6
+    }, {
+      "issue": "corporate crime",
+      "value": 4
+    }, {
+      "issue": "terrorism",
+      "value": 3
+    }, {
+      "issue": "foreign policy",
+      "value": 29
+    }, {
+      "issue": "immigration",
+      "value": 2
+    }, {
+      "issue": "climate change",
+      "value": 10
+    }, {
+      "issue": "education",
+      "value": 11
+    }, {
+      "issue": "race relations",
+      "value": 2
+    }, {
+      "issue": "lgbt rights",
+      "value": 2
+    }]
+  }
+}
