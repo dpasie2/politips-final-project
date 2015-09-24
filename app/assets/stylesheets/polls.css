@@ -62,6 +62,10 @@
   width: 100%;
 }
 
+#d3-charts {
+  margin-left: 0;
+}
+
 #registration-button{
   width: 55%;
 }
