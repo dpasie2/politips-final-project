@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'candidates/:last_name/tweets', to: 'candidates#tweets'
 
   get 'polls', to: 'polls#index'
+  get 'positivity', to: 'positivity#index'
 
 
   # Example of regular route:

@@ -3,9 +3,11 @@
   display: inline-block;
 }
 
-#candidate-button {
-  width:30%;
-  float: right;
+#candidates-button {
+  width:15%;
+}
+#positivity-button {
+  width:15%;
 }
 
 #side-wrapper.polls-nav {
@@ -42,12 +44,12 @@
 }
 
 .polls-page-image {
-  width: 60%;
+  width: 57%;
   height: 122px;
  }
 
 .candidates-button {
-  width: 20%;
+  width: 15%;
 }
 
 #element {
@@ -58,4 +60,8 @@
   display: block;
   margin: auto;
   width: 1400px;
+}
+
+#registration-button{
+  width: 55%;
 }

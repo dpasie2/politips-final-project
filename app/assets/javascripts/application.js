@@ -19,3 +19,4 @@
 //= require npm
 //= require welcome
 //= require navbar
+//= require positivity
