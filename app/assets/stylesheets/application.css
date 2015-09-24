@@ -14,38 +14,25 @@
  *= require_self
  */
 
+ #candidates-button {
 
+ }
+ #positivity-button {
 
-footer{
-  position: absolute;
-  bottom: -75px;
-  height: 40px;
-  margin-top: 10px;
-  width:100%;
-  display: inline-block;
-  background-color: #21409A ;
-  font-size: 15px;
-}
+ }
+
+ #registration-button{
+   margin-left: 25px;
+   /*margin-right: 38px;*/
+
+ }
+ .candidates-button {
+   width: 15%;
+ }
 
 li{
   list-style: none;
   display: inline;
   padding-right: 5px;
   bottom: 0px;
-}
-
-.politips{
-  position: absolute;
-  margin-top: 5px;
-  bottom: 0px;
-  text-align: left;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-}
-
-.group-names{
-  font-family: 'Open Sans', sans-serif;
-  margin-right: 10px;
-  text-align: right;
-  font-size: 15px;
 }
