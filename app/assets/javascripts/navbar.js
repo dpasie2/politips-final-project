@@ -1,3 +1,3 @@
-$('#sidebar-wrapper a').click(function (e) {
-    $(this).parent('li').addClass('active')
+$('#sidebar-wrapper a').click(function(event) {
+  $(this).parent('li').addClass('active');
 })

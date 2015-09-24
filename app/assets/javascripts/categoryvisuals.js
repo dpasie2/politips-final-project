@@ -106,10 +106,13 @@ $(document).ready(function() {
     candidateData = data;
     displayChart(candidateData);
 
+    $("#candidate-header").text("Jeb Bush")
+
     $(".link a").on("click", function(event) {
       event.preventDefault();
       $(".node").remove();
 			currentCandidate = this.id;
+      $("#candidate-header").text($(this).text());
       displayChart(candidateData);
     });
   });
