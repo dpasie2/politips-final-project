@@ -1,0 +1,1150 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class=" is-copy-enabled">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>politips-final-project/carson_announcement.txt at fixes-d3-with-actual-data · dpasie2/politips-final-project</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="dpasie2/politips-final-project" name="twitter:title" /><meta content="Contribute to politips-final-project development by creating an account on GitHub." name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/12092732?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/12092732?v=3&amp;s=400" property="og:image" /><meta content="dpasie2/politips-final-project" property="og:title" /><meta content="https://github.com/dpasie2/politips-final-project" property="og:url" /><meta content="Contribute to politips-final-project development by creating an account on GitHub." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MTE5OTQ1ODI6MWFjOGY0YjY2NWM3MDM0Y2UyYjgzNWJiY2ZlZDFlMzY6MTE0ODc1ZmI1OTAzZDJkZTkxZWVjY2RjNjUwOTMyODNlNjVkNjYwNTQzZTYzNTkxNTJkYTM5NjNhMzg2ODI4OA==--8c073e34477682278a1ee329bd4eaaff7de15ba4">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+        <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="328CB456:2C83:4777DBF:56046C23" name="octolytics-dimension-request_id" /><meta content="11994582" name="octolytics-actor-id" /><meta content="pbsugg" name="octolytics-actor-login" /><meta content="267aea1fbca77706df256bda084db4d55efc9ca48cf3face9150a8d6952798f4" name="octolytics-actor-hash" />
+    
+    <meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged In">
+      <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="pbsugg">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <!-- </textarea> --><!-- '"` --><meta content="authenticity_token" name="csrf-param" />
+<meta content="o+TAF7HY4cLbpm+HSQRKF6sOcdR4KT6X0ERARQAmCxgFBp5CQXydQRNTo7h8h7HWBSzNemkmDvscHzfHPA26Jw==" name="csrf-token" />
+    <meta content="82336f15cffa147eda64d0eb328214ef8ab4c91f" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-b61ad460eedae0282c8a42d93a8d34b48981d45af9534d1133f99f50e58d4876.css" integrity="sha256-thrUYO7a4CgsikLZOo00tImB1Fr5U00RM/mfUOWNSHY=" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-744f5321e4f9e57f30a98b913c14585e1814078c39f010c420542ac3fb979053.css" integrity="sha256-dE9TIeT55X8wqYuRPBRYXhgUB4w58BDEIFQqw/uXkFM=" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="328152ed49fb262668ac4e5b38e22f3f">
+
+      
+  <meta name="description" content="Contribute to politips-final-project development by creating an account on GitHub.">
+  <meta name="go-import" content="github.com/dpasie2/politips-final-project git https://github.com/dpasie2/politips-final-project.git">
+
+  <meta content="12092732" name="octolytics-dimension-user_id" /><meta content="dpasie2" name="octolytics-dimension-user_login" /><meta content="42685366" name="octolytics-dimension-repository_id" /><meta content="dpasie2/politips-final-project" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="42685366" name="octolytics-dimension-repository_network_root_id" /><meta content="dpasie2/politips-final-project" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/dpasie2/politips-final-project/commits/fixes-d3-with-actual-data.atom" rel="alternate" title="Recent Commits to politips-final-project:fixes-d3-with-actual-data" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in   env-production macintosh vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" data-ga-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/dpasie2/politips-final-project/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/dpasie2/politips-final-project/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+      </div>
+
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item">
+          <a href="/pulls" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user" data-hotkey="g p" data-selected-links="/pulls /pulls/assigned /pulls/mentioned /pulls">
+            Pull requests
+</a>        </li>
+        <li class="header-nav-item">
+          <a href="/issues" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:issues context:user" data-hotkey="g i" data-selected-links="/issues /issues/assigned /issues/mentioned /issues">
+            Issues
+</a>        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com/" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item">
+      <span class="js-socket-channel js-updatable-content"
+        data-channel="notification-changed:pbsugg"
+        data-url="/notifications/header">
+      <a href="/notifications" aria-label="You have unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:unread" data-hotkey="g n">
+          <span class="mail-status unread"></span>
+          <span class="octicon octicon-bell"></span>
+</a>  </span>
+
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link tooltipped tooltipped-s js-menu-target" href="/new"
+       aria-label="Create new…"
+       data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus left"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <ul class="dropdown-menu dropdown-menu-sw">
+        
+<a class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
+  New repository
+</a>
+
+
+  <a class="dropdown-item" href="/organizations/new" data-ga-click="Header, create new organization">
+    New organization
+  </a>
+
+
+
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="dpasie2/politips-final-project">This repository</span>
+  </div>
+    <a class="dropdown-item" href="/dpasie2/politips-final-project/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
+
+      </ul>
+    </div>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name tooltipped tooltipped-s js-menu-target" href="/pbsugg"
+       aria-label="View profile and more"
+       data-ga-click="Header, show menu, icon:avatar">
+      <img alt="@pbsugg" class="avatar" height="20" src="https://avatars1.githubusercontent.com/u/11994582?v=3&amp;s=40" width="20" />
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      <div class="dropdown-menu  dropdown-menu-sw">
+        <div class=" dropdown-header header-nav-current-user css-truncate">
+            Signed in as <strong class="css-truncate-target">pbsugg</strong>
+
+        </div>
+
+
+
+        <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="/pbsugg" data-ga-click="Header, go to profile, text:your profile">
+            Your profile
+          </a>
+        <a class="dropdown-item" href="/stars" data-ga-click="Header, go to starred repos, text:your stars">
+          Your stars
+        </a>
+        <a class="dropdown-item" href="/explore" data-ga-click="Header, go to explore, text:explore">
+          Explore
+        </a>
+        <a class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">
+          Help
+        </a>
+
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">
+            Settings
+          </a>
+
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8GEPhm3j/10vgUV5Str6yPPKTvt4iahEHuq3z9yG2MPo8k1P8JsgIlxMcas/aZTkRSvvpz5QQgrDiupMg7UU6g==" /></div>
+            <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
+              Sign out
+            </button>
+</form>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+
+      <div class="container">
+
+        <div class="clearfix">
+          
+<ul class="pagehead-actions">
+
+  <li>
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GgAexQWUsWIn7QgsrR1YLPSVf9E1+SblTRpAJTtcTxHcCcUbU+UQeOe713R8d06GPeRXgO4te8NcMM972asd2Q==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="42685366" />
+
+      <div class="select-menu js-menu-container js-select-menu">
+        <a href="/dpasie2/politips-final-project/subscription"
+          class="btn btn-sm btn-with-count select-menu-button js-menu-target" role="button" tabindex="0" aria-haspopup="true"
+          data-ga-click="Repository, click Watch settings, action:blob#show">
+          <span class="js-select-button">
+            <span class="octicon octicon-eye"></span>
+            Unwatch
+          </span>
+        </a>
+        <a class="social-count js-social-count" href="/dpasie2/politips-final-project/watchers">
+          4
+        </a>
+
+        <div class="select-menu-modal-holder">
+          <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+            <div class="select-menu-header">
+              <span class="select-menu-title">Notifications</span>
+              <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+            </div>
+
+            <div class="select-menu-list js-navigation-container" role="menu">
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_included" name="do" type="radio" value="included" />
+                  <span class="select-menu-item-heading">Not watching</span>
+                  <span class="description">Be notified when participating or @mentioned.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input checked="checked" id="do_subscribed" name="do" type="radio" value="subscribed" />
+                  <span class="select-menu-item-heading">Watching</span>
+                  <span class="description">Be notified of all conversations.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-eye"></span>
+                    Unwatch
+                  </span>
+                </div>
+              </div>
+
+              <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+                <span class="select-menu-item-icon octicon octicon-check"></span>
+                <div class="select-menu-item-text">
+                  <input id="do_ignore" name="do" type="radio" value="ignore" />
+                  <span class="select-menu-item-heading">Ignoring</span>
+                  <span class="description">Never be notified.</span>
+                  <span class="js-select-button-text hidden-select-button-text">
+                    <span class="octicon octicon-mute"></span>
+                    Stop ignoring
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+</form>
+  </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/dpasie2/politips-final-project/unstar" class="js-toggler-form starred js-unstar-button" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="t+LsotINm6A6pmIeXGCaRHletRuZhSlJu5cVC2zj/p0bbH4sgSBSxUbkOaYohBLdw+PciM856SdBujmpi2mIdg==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Unstar this repository" title="Unstar dpasie2/politips-final-project"
+        data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/dpasie2/politips-final-project/stargazers">
+          0
+        </a>
+</form>
+    <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/dpasie2/politips-final-project/star" class="js-toggler-form unstarred js-star-button" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="k0CVel8olOkW+h4Zxfbjm2iS1VH/Z/vM2DceAAwzPXoKJzyFimRVoQC25gM9LEFeUNtGIyOVx2epJpxAzRkoZQ==" /></div>
+      <button
+        class="btn btn-sm btn-with-count js-toggler-target"
+        aria-label="Star this repository" title="Star dpasie2/politips-final-project"
+        data-ga-click="Repository, click star button, action:blob#show; text:Star">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/dpasie2/politips-final-project/stargazers">
+          0
+        </a>
+</form>  </div>
+
+  </li>
+
+  <li>
+          <a href="#fork-destination-box" class="btn btn-sm btn-with-count"
+              title="Fork your own copy of dpasie2/politips-final-project to your account"
+              aria-label="Fork your own copy of dpasie2/politips-final-project to your account"
+              rel="facebox"
+              data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+            <span class="octicon octicon-repo-forked"></span>
+            Fork
+          </a>
+
+          <div id="fork-destination-box" style="display: none;">
+            <h2 class="facebox-header" data-facebox-id="facebox-header">Where should we fork this repository?</h2>
+            <include-fragment src=""
+                class="js-fork-select-fragment fork-select-fragment"
+                data-url="/dpasie2/politips-final-project/fork?fragment=1">
+              <img alt="Loading" height="64" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-128.gif" width="64" />
+            </include-fragment>
+          </div>
+
+    <a href="/dpasie2/politips-final-project/network" class="social-count">
+      0
+    </a>
+  </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/dpasie2" class="url fn" itemprop="url" rel="author"><span itemprop="title">dpasie2</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/dpasie2/politips-final-project" data-pjax="#js-repo-pjax-container">politips-final-project</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline ">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/dpasie2/politips-final-project/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/dpasie2/politips-final-project/tree/fixes-d3-with-actual-data" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /dpasie2/politips-final-project/tree/fixes-d3-with-actual-data">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/dpasie2/politips-final-project/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /dpasie2/politips-final-project/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/dpasie2/politips-final-project/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /dpasie2/politips-final-project/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/dpasie2/politips-final-project/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /dpasie2/politips-final-project/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/dpasie2/politips-final-project/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /dpasie2/politips-final-project/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/dpasie2/politips-final-project/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /dpasie2/politips-final-project/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/dpasie2/politips-final-project.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="ssh">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="git@github.com:dpasie2/politips-final-project.git" readonly="readonly" aria-label="SSH clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/dpasie2/politips-final-project" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options">You can clone with
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nWMX5+NwLpCixkrdwnjIBiM7at12Msg09hIcX6FxscFlV3RcC3TnFJo+eQHrxzjofiRNXSrNAo6PCPpvlgrRCA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="BvTBFGpm5yZS1lZFlc2Cey8VS9AVcd09WnFSR780eEPzTTgTwS0JsRgOG3RqyvCfCM6PLNznaYBu7pQwJJJqlA==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=push" class="inline-form js-clone-selector-form is-enabled" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="PFRc4uWDD7AAP7bfWd2hGINK+HcxgCuKLoBQK3ltyC/MocAyS2Ggi4ycR11BOJ2sQZF8HAQamd2ODJhN8xEORA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+  <a href="https://mac.github.com" class="btn btn-sm sidebar-button" title="Save dpasie2/politips-final-project to your computer and use it in GitHub Desktop." aria-label="Save dpasie2/politips-final-project to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-desktop-download"></span>
+    Clone in Desktop
+  </a>
+
+              <a href="/dpasie2/politips-final-project/archive/fixes-d3-with-actual-data.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of dpasie2/politips-final-project as a zip file"
+                 title="Download the contents of dpasie2/politips-final-project as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+
+<a href="/dpasie2/politips-final-project/blob/38c18a394dad29aa98f979fc6732da6e1a015a8b/db/raw-text/speeches/carson_announcement.txt" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:a7338c4015f2ebff5ca3b4fc30bb9f50 -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-ref="fixes-d3-with-actual-data"
+    title="fixes-d3-with-actual-data"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">fixes-d3-with-…</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Find or create a branch…" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/add-functionality/db/raw-text/speeches/carson_announcement.txt"
+               data-name="add-functionality"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="add-functionality">
+                add-functionality
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/add_jquery_polling_charts/db/raw-text/speeches/carson_announcement.txt"
+               data-name="add_jquery_polling_charts"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="add_jquery_polling_charts">
+                add_jquery_polling_charts
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/add_positivity_and_layout_changes/db/raw-text/speeches/carson_announcement.txt"
+               data-name="add_positivity_and_layout_changes"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="add_positivity_and_layout_changes">
+                add_positivity_and_layout_changes
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/button-to-candidates/db/raw-text/speeches/carson_announcement.txt"
+               data-name="button-to-candidates"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="button-to-candidates">
+                button-to-candidates
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/candidates-header/db/raw-text/speeches/carson_announcement.txt"
+               data-name="candidates-header"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="candidates-header">
+                candidates-header
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/change-directions-on-candidates-page/db/raw-text/speeches/carson_announcement.txt"
+               data-name="change-directions-on-candidates-page"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="change-directions-on-candidates-page">
+                change-directions-on-candidates-page
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/fix_dem_positioning/db/raw-text/speeches/carson_announcement.txt"
+               data-name="fix_dem_positioning"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fix_dem_positioning">
+                fix_dem_positioning
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/fix-links/db/raw-text/speeches/carson_announcement.txt"
+               data-name="fix-links"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fix-links">
+                fix-links
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/fixed_header_position/db/raw-text/speeches/carson_announcement.txt"
+               data-name="fixed_header_position"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fixed_header_position">
+                fixed_header_position
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/dpasie2/politips-final-project/blob/fixes-d3-with-actual-data/db/raw-text/speeches/carson_announcement.txt"
+               data-name="fixes-d3-with-actual-data"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="fixes-d3-with-actual-data">
+                fixes-d3-with-actual-data
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/generate-json/db/raw-text/speeches/carson_announcement.txt"
+               data-name="generate-json"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="generate-json">
+                generate-json
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/heroku_python_build/db/raw-text/speeches/carson_announcement.txt"
+               data-name="heroku_python_build"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="heroku_python_build">
+                heroku_python_build
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/master/db/raw-text/speeches/carson_announcement.txt"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/poll_api_tues/db/raw-text/speeches/carson_announcement.txt"
+               data-name="poll_api_tues"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="poll_api_tues">
+                poll_api_tues
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/pollingdata-chart/db/raw-text/speeches/carson_announcement.txt"
+               data-name="pollingdata-chart"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="pollingdata-chart">
+                pollingdata-chart
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/seed-refactoring/db/raw-text/speeches/carson_announcement.txt"
+               data-name="seed-refactoring"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="seed-refactoring">
+                seed-refactoring
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/styling-both-pages/db/raw-text/speeches/carson_announcement.txt"
+               data-name="styling-both-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="styling-both-pages">
+                styling-both-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/testing_rspec_initial/db/raw-text/speeches/carson_announcement.txt"
+               data-name="testing_rspec_initial"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="testing_rspec_initial">
+                testing_rspec_initial
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/twitter-overlay/db/raw-text/speeches/carson_announcement.txt"
+               data-name="twitter-overlay"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="twitter-overlay">
+                twitter-overlay
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/dpasie2/politips-final-project/blob/twitter-scraping/db/raw-text/speeches/carson_announcement.txt"
+               data-name="twitter-scraping"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="twitter-scraping">
+                twitter-scraping
+              </span>
+            </a>
+        </div>
+
+          <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/dpasie2/politips-final-project/branches" class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0dZQYvtNUbHVzCbhVx18/NjizsCr8VcV2z1hehimg4wa3AgB1Jt4ZezvG9QM2af8l3hKuC1lUfTpNc2BX5oqpA==" /></div>
+            <span class="octicon octicon-git-branch select-menu-item-icon"></span>
+            <div class="select-menu-item-text">
+              <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
+              <span class="description">from ‘fixes-d3-with-actual-data’</span>
+            </div>
+            <input type="hidden" name="name" id="name" class="js-new-item-value">
+            <input type="hidden" name="branch" id="branch" value="fixes-d3-with-actual-data">
+            <input type="hidden" name="path" id="path" value="db/raw-text/speeches/carson_announcement.txt">
+</form>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="btn-group right">
+      <a href="/dpasie2/politips-final-project/find/fixes-d3-with-actual-data"
+            class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-nw"
+            data-pjax
+            data-hotkey="t"
+            aria-label="Quickly jump between files">
+        <span class="octicon octicon-list-unordered"></span>
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </div>
+
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/dpasie2/politips-final-project/tree/fixes-d3-with-actual-data" class="" data-branch="fixes-d3-with-actual-data" data-pjax="true" itemscope="url"><span itemprop="title">politips-final-project</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/dpasie2/politips-final-project/tree/fixes-d3-with-actual-data/db" class="" data-branch="fixes-d3-with-actual-data" data-pjax="true" itemscope="url"><span itemprop="title">db</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/dpasie2/politips-final-project/tree/fixes-d3-with-actual-data/db/raw-text" class="" data-branch="fixes-d3-with-actual-data" data-pjax="true" itemscope="url"><span itemprop="title">raw-text</span></a></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/dpasie2/politips-final-project/tree/fixes-d3-with-actual-data/db/raw-text/speeches" class="" data-branch="fixes-d3-with-actual-data" data-pjax="true" itemscope="url"><span itemprop="title">speeches</span></a></span><span class="separator">/</span><strong class="final-path">carson_announcement.txt</strong>
+    </div>
+  </div>
+
+
+  <div class="commit file-history-tease">
+    <div class="file-history-tease-header">
+        <img alt="" class="avatar" height="24" src="https://1.gravatar.com/avatar/62a109158c6a14b77f071c2aa288d2a4?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=x&amp;s=140" width="24" />
+        <span class="author"><span>Cole Campbell</span></span>
+        <time datetime="2015-09-21T14:29:35Z" is="relative-time">Sep 21, 2015</time>
+        <div class="commit-title">
+            <a href="/dpasie2/politips-final-project/commit/17a3f72111548a5951b00deb6121fd84a095557f" class="message" data-pjax="true" title="Add text parsing and file generation">Add text parsing and file generation</a>
+        </div>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat">
+        <a href="#blob_contributors_box" rel="facebox">
+          <strong>0</strong>
+           contributors
+        </a>
+      </p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="btn-group">
+      <a href="/dpasie2/politips-final-project/raw/fixes-d3-with-actual-data/db/raw-text/speeches/carson_announcement.txt" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/dpasie2/politips-final-project/blame/fixes-d3-with-actual-data/db/raw-text/speeches/carson_announcement.txt" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/dpasie2/politips-final-project/commits/fixes-d3-with-actual-data/db/raw-text/speeches/carson_announcement.txt" class="btn btn-sm " rel="nofollow">History</a>
+    </div>
+
+      <a class="octicon-btn tooltipped tooltipped-nw"
+         href="https://mac.github.com"
+         aria-label="Open this file in GitHub Desktop"
+         data-ga-click="Repository, open with desktop, type:mac">
+          <span class="octicon octicon-device-desktop"></span>
+      </a>
+
+        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/dpasie2/politips-final-project/edit/fixes-d3-with-actual-data/db/raw-text/speeches/carson_announcement.txt" class="inline-form js-update-url-with-hash" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="o4/qa9jeS8NCdBJuS4PSa0BYQZd3z4//OoucwZxctWlOddLNhYbsRslSgz5MuPYvugoo/ExtiGm04QmJvDilxw==" /></div>
+          <button class="octicon-btn tooltipped tooltipped-nw" type="submit"
+            aria-label="Edit this file" data-hotkey="e" data-disable-with>
+            <span class="octicon octicon-pencil"></span>
+          </button>
+</form>        <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/dpasie2/politips-final-project/delete/fixes-d3-with-actual-data/db/raw-text/speeches/carson_announcement.txt" class="inline-form" data-form-nonce="82336f15cffa147eda64d0eb328214ef8ab4c91f" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="g4Q4jLnxLiRA0VREgfGwWhXqJupVSyJjGhUZUgGNsjEeiim26YKE1Eb4jKX6izdHxffHWHGIFV1B0/MPBGNtgw==" /></div>
+          <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-nw" type="submit"
+            aria-label="Delete this file" data-disable-with>
+            <span class="octicon octicon-trashcan"></span>
+          </button>
+</form>  </div>
+
+  <div class="file-info">
+      54 lines (52 sloc)
+      <span class="file-info-divider"></span>
+    21.1 KB
+  </div>
+</div>
+
+  
+
+  <div class="blob-wrapper data type-text">
+      <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">...Thank you. Alright.  We have limited time. Thank you. Well thank you so much for that warm welcome. This of course is my wonderful wife Candy, who is also a Detroiter. Even though we are both from Detroit, we had to go to New Haven to meet each other. But, but Candy has been by my side now for 40 years.  And is my best friend, and we do everything together. She even learned how to play pool because she knew I was a good pool player. And, you know she actually wins sometimes. But, most of the times, most of the times I beat her.</td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">But I should be careful because there are some media in here and their headline will be Carson admits he beats his wife, you know. But, if you guys wouldn&#39;t mind sitting down, so that I can introduce our sons.</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">My oldest son, Murray and his wife Lerone are right here. Stand up, please. Murray is an engineer and Lerone is an analyst for a polling company. And my middle son B.J. and his wife Merlin are right here, Ben, Jr.. And, B.J. is an entrepreneur and Merlin owns a company that does placements and they do a lot of things, they own a lot of stuff. Very cool. And then my youngest son, Royce is right here. His wife is at home with the baby. Royce is a CPA, and they all three got married in 2011. That’s right, yeah.</td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">Now, I have introduced my family. You say, well who are you? I’ll tell you. I’m Ben Carson, and I’m a candidate for President of the United States. Thank you. Thank you.</td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line">Now, America remains a place of dreams and a lot of people are down on our nation. And they want to point out all of the bad things that have happened here. But, have you ever noticed that there&#39;s a lot of people trying to get in here and not a lot of people trying to escape? You know, it says something, and it was a place of dreams for my mother.</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">My mother came from a very large rural family in Tennessee and was shuffled from home to home. She always had a desire for education. But, she was never able to get beyond the third grade. And she married at age 13 with the hope of escaping a desperate situation. She and my father moved here to Detroit, and he worked in a factory. In fact, I remember one Christmas being right here in this auditorium, sitting right over there with, for GM employees they had a Christmas program for the kids.</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">But, some years later, my mother discovered that he was a bigamist and had another family. And of course, that occasioned the divorce and you know she only had a third grade education. And consequently, we were thrown into a situation of dire poverty. And she still maintained that dream of education, but now it was for us, more so than for herself. We moved in with her older sister and brother-in-law in Boston. Typical tenement. Large, multifamily dwelling. Boarded up windows and doors, sirens, gangs, murders. Both of our older cousins, who we adored, were killed.</td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">I remember when our favorite drug dealer was killed.  Vinnie Bostonbarrows [phon.] He drove a blue Cadillac. You know, they used to bring us candy, so we liked to see the drug dealers. But, the rats and the roaches. You know, in the more upscale areas, they called them water bugs, but we knew what they were.</td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">But my mother was out working extraordinarily hard. Two, sometimes three, jobs at a time, as a domestic. Trying to stay off of welfare. And the reason for that was she noticed that most of the people she saw go on welfare never came off of it. And she didn’t want to be dependent. She wanted us also to be independent, and she decided she would work as long and as hard as necessary, leaving at 5:00 in the morning, getting back after midnight, day after day after day, doing what other people didn&#39;t want to do to try and maintain her independence.</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">And she was very thrifty. I mean she would drive a car until it wouldn&#39;t make a sound.  And then she would go and collect all of her dimes and nickels and quarters and buy a new car. And people would say, how does that woman afford a new car? But, she knew how to manage money. And I am fond of saying if my mother were Secretary of the Treasury, we would not be in a deficit situation.</td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">And you know, there are many people who are critical of me because they say Carson wants to get rid of all the safety nets and welfare programs, even though he must&#39;ve benefited from them. This is a blatant lie. I have no desire to get rid of safety nets for people who need them. I have a strong desire to get rid of programs that create dependency in able-bodied people. And we’re not doing people a favor when we pat them on the head and say, there, there, you poor little thing, we’re going to take care of all you needs; you don&#39;t have to worry about anything.</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">You know who else says stuff like that? Socialists. And their programs always end up looking the same. They want to take care of people from cradle to grave. But, they want to be involved in every aspect of their lives. And they want most of their earnings. But, they say it&#39;ll be a utopia and nobody will have to worry. The problem is all of those societies end up looking the same, with a small group of elites at the top controlling everything, a rapidly diminishing middle class, and a vastly expanded dependent class.</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">That was not the intention for this country. This country was envisioned by individuals who wanted everything to be surrounding the people. Of, for, and by the people. Not, of, for, and by the government. And the government was to respond to the will of the people, not the people to the will of the government. We’ve allowed the whole thing to be turned upside down. And I’m not an antigovernment person by any stretch of the imagination. I think the government, as described in our Constitution, is wonderful. But, now we’ve gone far beyond what our Constitution describes, and we’ve begun to just allow it to expand based on what the political class wants, because they like to increase their power and their dominion over the people, and I think it’s time for the people to rise up and take the government back.</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">Now, the political class won&#39;t like me saying stuff like that.</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">I’ll tell you a secret. The political class comes from both parties and it comes from all over the place, okay. And It includes, unfortunately, even the media now. You know, the media, the press, is the only business in America that is protected by our Constitution.</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">You have to ask yourself a question. Why were they the only ones protected? It was because our founders envisioned a press that was on the side of the people, not a press that was on the side of the Democrats or the Republicans or the Federalists or the Anti-Federalists. And this is a direct appeal to media. You guys have an almost sacred position in a true democracy. Please don&#39;t abuse it.</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">You know, my mother’s dream was for us to move back to Detroit and we eventually were able to do that, but I was a terrible student and my brother was a terrible student, and she didn&#39;t know what to do.</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">So she prayed. She asked God for wisdom. And you know what? You don&#39;t have to have a Ph.D. to talk to God. You just have to have faith. And God gave her the wisdom. At least in her opinion. My brother and I didn’t think it was that wise. Turning off the TV and making us read books and submit to her written book reports which she couldn’t read. But you know it didn’t matter, because, because it worked. That was the key. As I started reading those books, which I really didn’t want to and I started reading about people of accomplishment, I began to recognize that the person who has the most to do with what happens in your life is you. It’s not somebody else.</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">And you don’t have to be dependent on the good graces of somebody else. You can do it on your own if you have a normal brain and you’re willing to work and you’re willing to have that can-do attitude. You&#39;ve got to remember it was the can-do attitude that allowed this nation to rise so quickly. Because we had people who didn’t stop when there was an obstacle. That’s how those early settlers were able to move from one sea to the other sea across a rugged and hostile terrain. They knew how to do things. And there were many communities that were separated from other communities by hundreds of miles, but they thrived. Why did they thrive? Because people were willing to work together, to work with each other.</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">If a farmer got injured, everybody else harvested his crops. If somebody got killed, everybody else pitched in to take care of their families. That’s who we are. We, Americans, we take care of each other. That’s why we&#39;re called the United States of America. And what we have done is we’ve allowed the purveyors of division to become rampant in our society and to create friction and fear in our society.</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">People are afraid to stand up for what they believe in because they don’t want to be called a name. They don’t want an IRS audit. They don’t want their jobs messed with or their families messed with.</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">But isn&#39;t it time for us to think about the people who came before us? And what they were willing to do, so that we could be free. Nathan Hale, a teenage rebel, caught by the British, ready to be executed - he said my only regret is that I have but one life to give for my country.</td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">A couple of nights ago, I was in Mobile, Alabama, and there were several World War II veterans there in uniform. And I took pictures with all of them. And they were thanking me for being courageous enough to do what I’m doing now. But I said, no, it’s you who we must thank.</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">We think about all of those brave men and women who sacrificed life and limb over the years so that we could be free. And we dare not soil their efforts by being timid now and not standing up for what we believe.</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">You have to recognize that one of the rules oin Saul Alinsky’s Rules for Radicals, is you make the majority believe that what they believe is no longer relevant and no intelligent person thinks that way and the way you believe is the only way intelligent people believe. And that way they&#39;ll keep silent. Because I’ll tell you something. They don&#39;t care if you don&#39;t believe what they believe, as long as you keep your mouth shut. And that’s what we have to start doing. We have to start opening our mouths for the values and principles of America.</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">And, I got to tell you something. I’m not politically correct, and I’m probably never going to be politically correct because I’m not a politician. I don&#39;t want to be a politician, because, politicians do what is politically expedient, and I want to do what is right. We have to think about that once again in our country.</td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">You know, this past couple of weeks, there’s been a great deal of turmoil in Baltimore - where I spent 36 years of my life. And we see the turmoil in our cities all over our nation. We need to start thinking about how do we get to the bottom of this issue? You see, I believe that the real issue here is that people are losing hope and they don&#39;t feel that life is going to be good for them no matter what happens.</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">So when an opportunity comes to loot, to riot, to get mine, they take it - not believing that there is a much better way to get the things that they desire. Now, interestingly enough, many of these people buy hook, line, and sinker, the idea that our economy is getting much better and that you know the unemployment rate is down to 5.5%. You know what? If the unemployment rate was down to 5.5%, our economy would be humming, okay. But obviously, it’s not. And it’s one of the reasons that our founders said that our freedom and our way of life is dependent upon a well-informed and educated populace.</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">Because, what you have to know is that you can make the unemployment rate anything you want it to be based on what numbers you include and what numbers you exclude. So you have to look at the labor force participation rate, which is the number of people eligible to work who are actually working. That number has been steadily going down since 2009 and is now at a 37-year low. Unless you understand those kinds of things, it’s eminently possible for slick politicians and biased media to convince you that everything is wonderful when your eyes tell you something different.</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">And I’m saying to people around this nation right now, stop being loyal to a party or to a man and use your brain to think for yourself. That is really the key to us as a nation becoming successful again. Not allowing ourselves to be manipulated by people who think that they are the kingmakers, who think that they are the rulers of thought. They are not the rulers of thought. We, the people are the rulers of thought in this nation. We get to determine what kind of nation we have; other people cannot dictate that for us. We never allow anybody to take that right away from us.</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">And do that when we submit to silliness. You know for instance the majority of Americans were opposed to the so-called &quot;Affordable Care Act,&quot; and they just rammed it down our throats and say that this is the way it’s going to be and if you don&#39;t like it, too bad. That was never supposed to be the way that this country was designed. And if we accept it, it will continue that way and it will get worse.</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">And we have to get the right people in place. We need, not only to take the executive branch in 2016, and when I say we, I’m not talking Republicans - I’m talking about anybody who has common sense, you know. We have to have another wave election and bring in people with common sense, who actually love our nation and are willing to work for our nation and are more concerned about the next generation than the next election. That’s what’s going to help us.</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">We also are going to have to concentrate on fixing the broken economy. Eightteen-plus trillion dollars in national debt. And we have representatives who applaud themselves if the deficit doesn&#39;t go up as much this quarter as it did last quarter. You know they are completely out to lunch.  We have got to drive that thing back down. It’s crazy. But it’s our responsibility.</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">You need to know who your representatives are. And you need to know how they voted, not how they said they voted. And if they voted to keep raising that debt ceiling, to keep compromising the future of our children and our grandchildren, you need to throw them out of office.  $18 trillion dollars. Think about what that means. If you tried to pay that back in a rate of $10 million dollars a day, it would take you over five thousand years. And we’re putting that on the backs of people coming behind us. This will be the first year that the national debt exceeds the GDP. Economists will tell you that when the debt to GDP ratio reaches 90%, at that point economic slowdown is inevitable.</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">And you know we’ve been doing this for a while now. From 1850 to 2000, our economy grew at a rate of 3.3% at least, even during wars. From 2001 until 2014, it grew at a rate of 1.8%. That seems to be the new norm. And you probably saw the headlines recently in the last quarter. it grew at like 0.2%. This is not good.  I don&#39;t care how anybody tries to spin it. And this is what happens when you have a GDP to debt ratio of 103, which is what we have now. This is what we have got to fix; we’ve got to fix that immediately because we cannot continue along that pathway. It will have dire consequences in the long run. And I will be giving an in-depth economic speech in weeks and months to come with a lot of details about things that have to be done. But, we need to fix it; we can’t just talk about it. And how do we fix it? Well, recognize that we have the most dynamic economic engine the world has ever known right here in America, and we need to use it again.</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">We can’t work it when we wrap it in chains and fetters of regulations and new regulations that come out all the time. It doesn’t work, it doesn&#39;t work when you have high taxation rates, which are absurd. We have the highest corporate tax rates in the world. And yet we sit there or at least some of our officials and they wonder why people do work overseas. Well they obviously don&#39;t understand business. People don’t go into business to support the government; they go into business to make money.   So we have to obviously - we obviously have to create an environment that is conducive to them making money. And you know that means lowering that corporate tax rate, making it competitive and if we were really smart, we would do another big stimulus.</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">You’re saying what? What did he just say? Well, remember that big billion dollar stimulus that we were supposed to have at the beginning of the Obama administration? Whatever happened to that?  But, but I know where we could get a really big stimulus. There’s $2 trillion dollars of offshore money because they won’t bring it back because it will be taxed at 35%. What if we give them a tax holiday and let them bring it back, repatriate that money? It won&#39;t cost us a dime.</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">That’s the kind of thing we have to start thinking about. Think about, you know if you go to the financial advisor and you know you’re in trouble, they’ll tell you, they’ll ask you four questions. What do you own and what do you owe?</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">Well, we owe a lot. It’s not just the $18 trillion; it&#39;s the  $211 trillion in unfunded mandates as well.</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">But, what do we own? We own a lot, also. I mean, just in terms of land and the mineral rights for it, are probably at least $50 trillion. We own dams. We own levees. We own railroads. The government owns 900,000 buildings, 77,000 of which are being not utilized or underutilized. Think about that. And at the same time, the government is leasing over 500 million square feet from the private sector, using your taxpayer money. It is totally horrendous when you look under the hood, you just want to shut it back down. I mean it is that bad.</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">But, I want to tell you what we’re going to do if God ordains that we end up in the White House. I&#39;m going tell you what we are going to do. We are going to change the government into something that looks more like a well-run business than a behemoth of inefficiency.</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">And when I say we, I am talking about our team. When I started this endeavor, I am familiar with a man who has started over 30 companies, is extraordinarily successful.  And I asked him to put together the rest of the team in order to be able to do this. His name is Terry Giles. Terry, where are you? Right there.</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">Now that we are transitioning from, you know, an exploratory committee, I’ve asked Terry if he would take the lead in helping to select the people who will be able, who have had enormous experience with business and with making things work, so that we can transition our government from this inefficient thing that we have into something that really works and something that works the way it&#39;s supposed to, according to our Constitution.</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">We also have a great team. We have our - let&#39;s see, who do we have? We have our chairman, which is Barry Bennett, who never wears a tie but you&#39;ll get used to seeing him, and he does a terrific job.</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">And, we have our director of communications, Doug Watts, who does wear a tie. And we have our treasurer and finance director, Logan Delaney. And we have our national spokesperson, Deana Bass.</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">And we&#39;re going to be doing different things than you’ve seen before because it&#39;s not political as I&#39;ve said before. And there are people who say, but you can’t do this, you don&#39;t have any experience. Let me tell you something. I don&#39;t have a lot of experience busting budgets and doing the kinds of things that I’ve gotten us into all the trouble that we’re in now, but I do have a lot of experience in solving problems, complex surgical problems that have never been done by anybody before. I do have experience, I do have corporate board experience with 18 years with Kellogg, and 16 years with Costco, as well as a biotech company.</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">Candy and I do have experience starting a national nonprofit scholars fund. Nine out of 10 of those fail. Ours is thriving in all 50 states and has won several national awards.</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">So, the point being that you can gain experience in other ways. It doesn’t have to be just in politics. I can name a lot of people in politics who’ve been there all their lives and you probably wouldn’t want them to polish your shoe. So you know we need to be smart enough to think for ourselves, to listen for ourselves, and in terms of a pedigree that we need-  And you know something, I have to tell you, everybody’s been telling me, are you ready for this. They&#39;re going to come after you with everything under the sun. They’re going to look through every record you have; they’re going to try to say you are a horrible doctor, you know everything that you can possibly imagine.  I know that.  That’s the way they are. I expect that. It’s ok.</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">Don&#39;t worry, just listen to what’s being said. I&#39;m not even asking everybody to vote for me. I&#39;m just asking people to listen to what I’m saying and listen to what politicians are saying and make an intelligent decision based on your intellect.</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">Because the real pedigree that we need to help to heal this country, to revive this country. Someone who believes in our Constitution and is willing to put it on the top shelf. Someone who believes in their fellow man and loves this nation and is compassionate. Somebody who believes in what we have learned since we were in kindergarten.</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">And that is, that we are one nation, under God, indivisible with liberty and justice for all. God Bless you and God Bless the United States of America.</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">http://www.p2016.org/carson/carson050415spt.html</td>
+      </tr>
+</table>
+
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.06797s from github-fe124-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" integrity="sha256-+Ec97OckLaaiDVIxNjSIGzl1xSzrqh5sOBV8DyYYVpE=" src="https://assets-cdn.github.com/assets/frameworks-f8473dece7242da6a20d52313634881b3975c52cebaa1e6c38157c0f26185691.js"></script>
+      <script async="async" crossorigin="anonymous" integrity="sha256-RWx/8z+RPn4JHpeLIDkJh2lHOLedo2jph+vW7L5WtRU=" src="https://assets-cdn.github.com/assets/github-456c7ff33f913e7e091e978b20390987694738b79da368e987ebd6ecbe56b515.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+
