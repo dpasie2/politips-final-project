@@ -55,6 +55,7 @@ $(document).ready(function() {
   canvas = d3.select(".d3").append("svg")
            .attr("width", width)
            .attr("height", height)
+           .attr("id", "category-chart")
            .append("g")
            .attr("transform", "translate(50, 50)");
 

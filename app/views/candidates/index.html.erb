@@ -1,12 +1,9 @@
-<div id="wrapper">
-
 
     <div class="page-header">
     <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
-    <%= button_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
+    <%= link_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
     </div>
 
-    <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="republican"> Republicans </li>
@@ -19,21 +16,11 @@
             <% end %>
         </ul>
     </div>
-    <!-- /#sidebar-wrapper -->
 
-    <!-- Page Content -->
-    <div id="page-content-wrapper">
+    <div id="content">
         <p class="bubble-explanation"> Scroll through the candidates, click to see how much a candidate publicly talks about an issue</p>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="d3">
-                        <%= javascript_include_tag("categoryvisuals")%>
-                    </div>
-            </div>
+        <div class="d3">
+            <%= javascript_include_tag("categoryvisuals")%>
         </div>
     </div>
-    <!-- /#page-content-wrapper -->
 
-</div>
-<!-- /#wrapper -->
