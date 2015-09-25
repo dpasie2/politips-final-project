@@ -127,8 +127,8 @@
 }
 
 .candidates-page-image {
-  margin-right: -55px;
-  margin-left: 218px;
+  margin-right: 9px;
+  margin-left: 111px;
   width: 44%;
   height: 122px;
  }
@@ -157,7 +157,8 @@
 
 #category-chart {
   display: block;
-  margin: auto;
+  margin-left: 511px;
+  height: 800px;
 }
 
 #poll-button {

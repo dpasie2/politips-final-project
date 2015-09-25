@@ -1,5 +1,5 @@
 var pack, canvas, nodes, node,
-    currentCandidate = "Bush",
+    currentCandidate = "Trump",
     COLORS = {
       "unemployment": "#D13F31",
       "economy": "#A6A6A6",
@@ -107,7 +107,7 @@ $(document).ready(function() {
     candidateData = data;
     displayChart(candidateData);
 
-    $("#candidate-header").text("Jeb Bush")
+    $("#candidate-header").text("Donald Trump")
 
     $(".link a").on("click", function(event) {
       event.preventDefault();

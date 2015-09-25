@@ -1,6 +1,6 @@
 $(document).ready( function () {
 
-margin = {top: 20, right: 20, bottom: 30, left: 200};
+margin = {top: 20, right: 20, bottom: 30, left: 70};
 width = 1200 - margin.left - margin.right;
 height = 400 - margin.top - margin.bottom;
 dems = "2016-president-dem-primary.json"
@@ -10,7 +10,7 @@ $("#republican-chart-button").on("click", function(event) {
     event.preventDefault();
     $(".d3-charts").empty()
     var repubs = "2016-president-gop-primary.json"
-    margin = {top: 20, right: 20, bottom: 30, left: 100};
+    margin = {top: 20, right: 20, bottom: 30, left: 70};
     width = 1400 - margin.left - margin.right;
     polling_chart(repubs);
   });
@@ -18,7 +18,7 @@ $("#republican-chart-button").on("click", function(event) {
 $("#democratic-chart-button").on("click", function(event) {
   event.preventDefault();
   $(".d3-charts").empty()
-  margin = {top: 20, right: 20, bottom: 30, left: 70};
+  margin = {top: 20, right: 20, bottom: 30, left: 60};
   width = 1200 - margin.left - margin.right;
   height = 400 - margin.top - margin.bottom;
   polling_chart(dems);
