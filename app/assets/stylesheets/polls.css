@@ -4,7 +4,6 @@
 }
 
 
-
 #side-wrapper.polls-nav {
   width: 1000px;
 }
@@ -54,7 +53,7 @@
 }
 
 #d3-charts {
-  margin-left: 0;
+  margin-left: 250px;
 }
 
 #registration-button{
