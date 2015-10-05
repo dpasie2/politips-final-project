@@ -1,18 +1,11 @@
-.polls-explanation {
-  text-align: center;
-  display: inline-block;
-}
-
-
-#side-wrapper.polls-nav {
-  width: 1000px;
-}
-
 #republican-chart-button, #democratic-chart-button {
     font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: white ;
     width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
 }
 
 #republican-chart-button {
@@ -33,29 +26,6 @@
   color: white;
 }
 
-.party-tabs {
-  text-align: center;
-}
-
-.polls-page-image {
-  width: 57%;
-  height: 122px;
- }
-
-#element {
-  display: inline-block;
-}
-
-#polls-chart {
-  display: block;
-  margin: auto;
-  width: 100%;
-}
-
-#d3-charts {
-  margin-left: 250px;
-}
-
-#registration-button{
-  width: 55%;
+.buffer {
+  padding-top: 20px;
 }

@@ -1,34 +1,28 @@
-
-/*!
- * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
-/* Toggle Styles */
-
-*{
-  font-family: 'Open Sans', sans-serif;
+.republican {
+  list-style: none;
+  color: #E93829;
 }
 
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    left: 250px;
-    width: 0;
-    height: 100%;
-    margin-left: -250px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background: #000;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-
+.democrat {
+  list-style: none;
+  color:#21409A;
 }
-/*scrollbar styling*/
+
+.navbar {
+  height:450px;
+  width:250px;
+  padding: 10px;
+  text-align: left;
+}
+
+.navbar {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
 
 ::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -40,129 +34,32 @@
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
-#wrapper.toggled #sidebar-wrapper {
-    width: 250px;
-}
-
-#page-content-wrapper {
-    width: 100%;
-    position: absolute;
-    padding: 15px;
-}
-
-#wrapper.toggled #page-content-wrapper {
-    position: absolute;
-    margin-right: -250px;
-}
-
-/* Sidebar Styles */
-
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin-left: -10px;
-    padding-left: 10px;
-    list-style: none;
-}
-
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
-
-.sidebar-nav li a {
+.link {
     display: block;
-    text-decoration: none;
+    list-style: none;
     color: #2B2A2A;
-
+    padding: 10px;
 }
 
-.sidebar-nav li a:hover {
-    text-decoration: none;
+.link:hover {
+    list-style: none;
     color: #767068;
     background: rgba(255,255,255,0.2);
 }
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-    background-color: #dbdbdb;
+.candidate {
+  text-decoration: none;
+  color: #2B2A2A;
+  }
+
+.candidate:hover {
+  text-decoration: none;
+  color: #767068;
+  background: rgba(255,255,255,0.2);
 }
 
-.sidebar-nav > .sidebar-brand {
-    height: 65px;
-    font-size: 18px;
-    line-height: 60px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-
-    background: none;
-}
-
-@media(min-width:1000px) {
-    #wrapper {
-        padding-left: 250px;
-    }
-
-    #wrapper.toggled {
-        padding-left: 0;
-    }
-
-    #sidebar-wrapper {
-        width: 250px;
-        height: 650px;
-        background: white;
-        border: 1px solid #F1EBEB;
-    }
-
-    #wrapper.toggled #sidebar-wrapper {
-        width: 0;
-    }
-}
-
-.candidates-page-image {
-  margin-right: 9px;
-  margin-left: 111px;
-  width: 44%;
-  height: 122px;
- }
-
-.republican {
-  color: #E93829;
-}
-
-.democrat {
-  color: #21409A;
-}
-
-.page-header {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-bottom: 1px solid #F1EBEB;
-}
-
-.bubble-explanation {
-  text-align: center;
-}
-
-#candidate-header {
-  text-align: center;
-}
-
-#category-chart {
-  display: block;
-  margin-left: 511px;
-  height: 800px;
-}
-
-#poll-button {
-    width: 30%;
+#sidebar{
+  float: left;
 }
 
 #sidebar-overlay {

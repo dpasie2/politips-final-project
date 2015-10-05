@@ -14,25 +14,49 @@
  *= require_self
  */
 
- #candidates-button {
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
- }
- #positivity-button {
+.general-image {
+  width: 35%;
+}
 
- }
+.element {
+  display: inline-block;
+  text-decoration: none;
+  margin: auto;
+}
 
- #registration-button{
-   margin-left: 249px;
-   /*margin-right: 38px;*/
 
- }
- .candidates-button {
-   width: 15%;
- }
+#positivity-button, #candidates-button, #registration-button, #polls-button {
+  width: 15%;
+  padding-bottom: 15px;
+  margin-bottom: 10px
+}
 
-li{
-  list-style: none;
-  display: inline;
-  padding-right: 5px;
-  bottom: 0px;
+#registration-button {
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+.btn {
+  padding: 15px;
+  background-color: #21409A;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #E93829;
+}
+
+#category-chart {
+  margin-top: -120px;
+  margin-left: -150px;
+}
+
+.page-header {
+  height: 150px;
 }

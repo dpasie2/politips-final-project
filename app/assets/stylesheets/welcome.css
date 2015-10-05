@@ -1,0 +1,28 @@
+.container {
+  margin: auto;
+  width: 1200px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  height: 400px;
+}
+
+.landing-page-image {
+  width: 900px;
+}
+
+.phrase {
+  font-style: italic;
+}
+
+.btn-lg {
+  width: 200px;
+  height: 50px;
+  background-color:#21409A;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.btn-lg:hover {
+  background-color: #E93829;
+}

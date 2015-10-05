@@ -28,8 +28,8 @@ function displayChart(data) {
          });
 
   node.append("circle")
-  .attr("fill", function(d) { return d.children ? "#fff" : COLORS[d.issue]; })
-  .attr("stroke", function(d) { return d.children ? "#fff" : "black"; })
+  .attr("fill", function(d) { return d.children ? "transparent" : COLORS[d.issue]; })
+  .attr("stroke", function(d) { return d.children ? "none" : "black"; })
   .attr("r", function(d) { return d.value/2;})
   .transition().duration(2000)
   .attr("r", function(d) { return d.r + 20; })
