@@ -18,34 +18,35 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.general-image {
-  width: 35%;
-}
 
 .element {
   display: inline-block;
   text-decoration: none;
   margin: auto;
 }
-
+.general-image {
+  width: 33%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
 
 #positivity-button, #candidates-button, #registration-button, #polls-button {
   width: 15%;
   padding-bottom: 15px;
-  margin-bottom: 10px
+  margin-bottom: 40px
 }
 
 #registration-button {
-  margin-left: 50px;
-  margin-right: 50px
+  margin-left: 10px;
+  margin-right: 175px
 }
 
 .btn {
-  padding: 15px;
+  padding: 6px;
   background-color: #21409A;
   color: white;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn:hover {
