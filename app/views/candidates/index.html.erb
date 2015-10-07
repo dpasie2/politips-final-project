@@ -1,39 +1,42 @@
+<div class="container">
   <div class="page-header">
-    <%= link_to "Register to Vote!", "https://www.usa.gov/register-to-vote", method: "get", class: "btn-lg", id:"registration-button" %>
-    <%= image_tag( "banner-copy2.svg", class: "candidates-page-image") %>
-    <%= link_to "Candidate Positivity", positivity_path, method: "get", class: "btn-lg", id:"positivity-button" %>
-    <%= link_to "Candidate Standings", polls_path, method: "get", class: "btn-lg", id:"poll-button" %>
+    <%= render "header" %>
   </div>
 
-  <div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="republican"> Republicans by Rank: </li>
-      <% @candidates.get_party_members("Republican").each do |candidate| %>
-      <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-      <% end %>
-      <li class="democrat"> Democrats by Rank:</li>
-      <% @candidates.get_party_members("Democrat").each do |candidate| %>
-      <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name %></li>
-      <% end %>
-    </ul>
-  </div>
+  <div class="body-container">
+    <div id="sidebar">
+      <ul class="navbar">
 
-  <div id="content">
-    <h3 id="candidate-header"></h3>
-    <p class="bubble-explanation">
-      Scroll through the candidates and click to see how much a candidate publicly talks about a particular topic. <br> Click on the topic to see their top tweets pertaining to each.
-    </p>
-    <div class="d3">
-      <%= javascript_include_tag("categoryvisuals")%>
+        <li class="republican"> Republicans by Rank: </li>
+        <% @candidates.get_party_members("Republican").each do |candidate| %>
+        <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name, class: "candidate" %></li>
+        <% end %>
+
+        <li class="democrat"> Democrats by Rank:</li>
+        <% @candidates.get_party_members("Democrat").each do |candidate| %>
+        <li class="link"><%= link_to "#{candidate.first_name} #{candidate.last_name}", candidates_path, id: candidate.last_name, class: "candidate" %></li>
+        <% end %>
+
+      </ul>
     </div>
-  </div>
 
+    <div id="content">
+      <p class="bubble-explanation">
+        Scroll through the candidates and click to see how much a candidate publicly talks about a particular topic. <br> Click on the topic to see their top tweets pertaining to each.
+      </p>
+      <h3 id="candidate-header"></h3>
+      <div class="d3">
+        <%= javascript_include_tag("categoryvisuals")%>
+      </div>
+    </div>
 
-  <div id="twitter-overlay">
-    <div id="tweet-container">
-      <div id="tweet-box">
+    <div id="twitter-overlay">
+      <div id="tweet-container">
+        <div id="tweet-box">
 
       </div>
-      <%= button_to "Close", candidates_path, method: "get", class: "btn-lg", id: "close-button" %>
+        <%= button_to "Close", candidates_path, method: "get", class: "btn-lg", id: "close-button" %>
+      </div>
     </div>
-  </div>
+</div>
+</div>

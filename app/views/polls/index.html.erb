@@ -1,23 +1,21 @@
-<div class="page-header">
-    <%= link_to "Register to Vote!", "https://www.usa.gov/register-to-vote", method: "get", class: "btn-lg", id:"registration-button" %>
-    <%= image_tag( "banner-copy2.svg", class: "candidates-page-image", id: "element") %>
-    <%= link_to "Candidate Positivity", positivity_path, method: "get", class: "btn-lg", id:"positivity-button" %>
-    <%= link_to "Candidate Positions", candidates_path, method: "get", class: "btn-lg", id:"candidates-button" %>
-</div>
-    <!-- Sidebar -->
-<div class="buffer">
-    <div class="party-tabs">
-        <button id="republican-chart-button"  type="button"> Republicans </button>
-        <button id="democratic-chart-button"  type="button"> Democrats </button><br>
-        <p class="polls-explanation" id="element"> Click on either Party to see how they stand in the Presidential Race</p>
+<div class="container">
+    <div class="page-header">
+        <%= render "header" %>
     </div>
-</div>
 
+    <div class="body-container">
+        <div class="buffer">
+            <div class="party-tabs">
+                <button id="republican-chart-button"  type="button"> Republicans </button>
+                <button id="democratic-chart-button" type="button"> Democrats </button><br>
+                <p class="polls-explanation" id="element"> Click on either Party to see how they stand in the Presidential Race</p>
+            </div>
+        </div>
 
-
-
-    <div id="d3-charts">
-        <div class="d3-charts">
-            <%= javascript_include_tag("pollingvisuals")%>
+        <div id="d3-charts">
+            <div class="d3-charts">
+                <%= javascript_include_tag("pollingvisuals")%>
+            </div>
         </div>
     </div>
+</div>
